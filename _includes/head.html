@@ -9,9 +9,8 @@
     
     <body>
         <div id="container">
-            <h1 class="global-title">{{ site.title }}‍<a href="https://mandafischer.github.io/" </a></h1>
-		
-					            {% if site.nav-links %}
+            <a href="https://mandafischer.github.io/"><h1 class="global-title">{{ site.title }}‍</h1> </a>
+	{% if site.nav-links %}
             <nav>
                 <ul>
                     {% for link in site.nav-links %}
