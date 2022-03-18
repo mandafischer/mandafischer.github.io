@@ -103,6 +103,7 @@ img {
 }
 
 .avatar {
+  float: left;
   width: 15rem;
   height: 15rem;
   border-radius: 4rem;
@@ -112,7 +113,6 @@ img {
 // homepage greeting component
 .greeting-container {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .greeting-container h3 {
