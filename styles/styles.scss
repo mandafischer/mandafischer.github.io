@@ -112,6 +112,7 @@ img {
 // homepage greeting component
 .greeting-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .greeting-container h3 {
