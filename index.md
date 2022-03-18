@@ -9,7 +9,7 @@ Please find my CV - **[here](assets/Test.pdf)**
 
 <p float="left">
   <a href="mailto:manda.fischer@mail.utoronto.ca"><img src="/assets/icons/envelope-solid.svg" width="25" /></a>
-  <img src="/assets/icons/envelope-solid.svg" width="25" /> 
+  <img src="/assets/icons/ResearchGate.svg" width="25" /> 
   <img src="/assets/icons/envelope-solid.svg" width="25" />
 </p>
 
