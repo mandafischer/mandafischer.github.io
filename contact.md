@@ -8,6 +8,5 @@ M5S 3G3
 
 
 
-<img src="/assets/Logo1.png" alt="drawing" width="200"/> ![alt text](/assets/Logo2.png)
-
+<img src="/assets/Logo1.png" alt="drawing" width="400"/> <img src="/assets/Logo2.png" alt="drawing" width="200"/>
 
