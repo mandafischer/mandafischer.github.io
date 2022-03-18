@@ -117,7 +117,7 @@ img {
 
 .greeting-container h3 {
   align-self: center;
-  flex-flow: row wrap;
+  overflow-wrap: word-break;
   margin: 0;
 }
 
