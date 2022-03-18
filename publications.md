@@ -2,11 +2,11 @@
 
 # **Peer-Reviewed**
 
-**Fischer, M.**, Moscovitch, M., & Alain, C. (2020). Incidental auditory learning and memory-guided attention: Examining the role of attention at the behavioural and neural level using EEG. *Neuropsychologia, 147*, 107586. https://doi.org/10.1016/j.neuropsychologia.2020.107586.
+**Fischer, M.**, Moscovitch, M., & Alain, C. (2020). Incidental auditory learning and memory-guided attention: Examining the role of attention at the behavioural and neural level using EEG. *Neuropsychologia, 147*, 107586. https://doi.org/10.1016/j.neuropsychologia.2020.107586.[PDF here]
 
-**Fischer, M.**, Moscovitch, M., & Alain, C. (2020). A systematic review and meta- analysis of memory-guided attention: Frontal and parietal activation suggests involvement of fronto-parietal networks. *WIREs Cognitive Science*, e1546. https://doi.org/10.1002/wcs.1546.
+**Fischer, M.**, Moscovitch, M., & Alain, C. (2020). A systematic review and meta- analysis of memory-guided attention: Frontal and parietal activation suggests involvement of fronto-parietal networks. *WIREs Cognitive Science*, e1546. https://doi.org/10.1002/wcs.1546.[PDF here]
 
-**Fischer, M.**, Soden, K., Thoret, E., Montrey, M., & McAdams, S. (2021). Instrument timbre enhances perceptual segregation in orchestral music. *Music Perception, 38*(5), 473-498. https://doi.org/10.1525/mp.2021.38.5.473.
+**Fischer, M.**, Soden, K., Thoret, E., Montrey, M., & McAdams, S. (2021). Instrument timbre enhances perceptual segregation in orchestral music. *Music Perception, 38*(5), 473-498. https://doi.org/10.1525/mp.2021.38.5.473.[PDF here]
 
 # **Manuscripts in preparation & submitted for peer-review**
 
