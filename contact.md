@@ -4,7 +4,7 @@ University of Toronto
 Toronto, ON, CA
 M5S 3G3
 
-- **[manda.fischer@mail.utoronto.ca](mailto:manda.fischer@mail.utoronto.ca)**
-- **[mfischer@research.baycrest.org](mailto:mfischer@research.baycrest.org)**
+**[manda.fischer@mail.utoronto.ca](mailto:manda.fischer@mail.utoronto.ca)**
+**[mfischer@research.baycrest.org](mailto:mfischer@research.baycrest.org)**
 
 
