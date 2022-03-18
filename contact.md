@@ -6,7 +6,7 @@ M5S 3G3
 
 **[manda.fischer@mail.utoronto.ca](mailto:manda.fischer@mail.utoronto.ca)**
 
-![alt text](Logo1.png)
-![alt text](Logo2.png)
+![alt text](/assets/Logo1.png)
+![alt text](/assets/Logo2.png)
 
 
