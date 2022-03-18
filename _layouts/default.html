@@ -5,7 +5,7 @@
   >← Back to all posts</a
 >{% endif %}
 
-{% unless page.url == "/" %}
+{% unless page.url == "/" or page.url=="/publications" %}
 <h1>
   {% if page.title %}{{ page.title }}{% endif %}{% if post.title %}{{ post.title
   }}{% endif %}
