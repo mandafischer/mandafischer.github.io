@@ -8,7 +8,7 @@ My previous BSc work at McGill University in psychoacoustics (timbre & attention
 Please find my CV - **[here](assets/Test.pdf)**
 
 <p float="left">
-  <a href="mandafisch@hotmail.com"><img src="/assets/icons/envelope-solid.svg" width="50" /></a>
+  <a href="mailto:mandafisch@hotmail.com"><img src="/assets/icons/envelope-solid.svg" width="50" /></a>
   <img src="/assets/icons/envelope-solid.svg" width="50" /> 
   <img src="/assets/icons/envelope-solid.svg" width="50" />
 </p>
