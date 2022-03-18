@@ -1,4 +1,4 @@
-[[google scholar]](https://scholar.google.com/citations?hl=en&user=WVWtxUkAAAAJ) [[research gate]](https://www.researchgate.net/profile/Manda-Fischer)
+[[google scholar]](https://scholar.google.com/citations?hl=en&user=WVWtxUkAAAAJ) [[ResearchGate]](https://www.researchgate.net/profile/Manda-Fischer)
 
 # **Peer-Reviewed**
 
