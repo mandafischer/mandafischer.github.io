@@ -2,7 +2,7 @@
 
 # **Peer-Reviewed**
 
-**Fischer, M.**, Moscovitch, M., & Alain, C. (2020). Incidental auditory learning and memory-guided attention: Examining the role of attention at the behavioural and neural level using EEG. *Neuropsychologia, 147*, 107586. https://doi.org/10.1016/j.neuropsychologia.2020.107586. **[PDF here]**(assets/pubs/NYS.pdf)
+**Fischer, M.**, Moscovitch, M., & Alain, C. (2020). Incidental auditory learning and memory-guided attention: Examining the role of attention at the behavioural and neural level using EEG. *Neuropsychologia, 147*, 107586. https://doi.org/10.1016/j.neuropsychologia.2020.107586. **[PDF here]** (assets/pubs/NYS.pdf)
 
 **Fischer, M.**, Moscovitch, M., & Alain, C. (2020). A systematic review and meta- analysis of memory-guided attention: Frontal and parietal activation suggests involvement of fronto-parietal networks. *WIREs Cognitive Science*, e1546. https://doi.org/10.1002/wcs.1546. **[PDF here]**(assets/pubs/WIRES.pdf)
 
