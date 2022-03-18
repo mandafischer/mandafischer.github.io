@@ -1,4 +1,6 @@
-# Point Theme
+# Personal website
+
+## Point Theme
 
 Point is a [Jekyll](https://jekyllrb.com/) theme for personal websites that are simple and to the point.
 
@@ -11,5 +13,3 @@ To use Point, fork this repo and make your own changes. Be sure to customize the
 This theme uses the [MIT license](https://choosealicense.com/licenses/mit/).
 
 To report a bug or request a feature, please [create an issue](https://github.com/katavie/point-theme/issues).
-
-![preview](preview.png)
