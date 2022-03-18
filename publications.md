@@ -1,6 +1,6 @@
 <p float="left">
-<a href="https://scholar.google.com/citations?hl=en&user=WVWtxUkAAAAJ"><img src="/assets/icons/google-scholar.svg" width="20"/></a>
-<a href="https://www.researchgate.net/profile/Manda-Fischer"><img src="/assets/icons/ResearchGate.svg" width="25" /></a>
+<a href="https://scholar.google.com/citations?hl=en&user=WVWtxUkAAAAJ"><img src="/assets/icons/google-scholar.svg" width="25"/></a>
+<a href="https://www.researchgate.net/profile/Manda-Fischer"><img src="/assets/icons/ResearchGate.svg" width="20" /></a>
 </p>
 
 # **Peer-Reviewed**
