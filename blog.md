@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Research
 ---
 
 {% for post in site.posts %}
