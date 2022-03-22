@@ -1,9 +1,8 @@
 ---
 ---
-**As an Alexander Graham Bell doctoral researcher, I am examining the relation between attention, memory, and awareness (advisors: Morris Moscovitch and Claude Alain at The University of Toronto and Rotman Research Institute at Baycrest Hospital).**
+**As an Alexander Graham Bell doctoral researcher, I am examining the relation between attention, memory, and awareness** (advisors: Morris Moscovitch and Claude Alain at The University of Toronto and Rotman Research Institute at Baycrest Hospital).
 
-What is the relation between attention, memory, and awareness? My present work fascinates me. Using EEG and behavioural measures, we have shown how auditory experience and memory can optimize attention and performance during processing of real-world soundscapes. 
-
+My present work fascinates me. Using EEG and behavioural measures, we have shown how auditory experience and memory can optimize attention and performance during processing of real-world soundscapes. 
 My previous BSc work at McGill University in psychoacoustics (timbre & attention) and auditory cognitive neuroscience (neural encoding of music memory & learning) led me to want to know more about the role of real-world sound in memory and attention.
 
 Please find my CV - **[here](assets/CV.pdf)**
