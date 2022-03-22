@@ -8,9 +8,9 @@ My previous BSc work at McGill University in psychoacoustics (timbre & attention
 Please find my CV - **[here](assets/CV.pdf)**
 
 <p float="left">
-  <a href="mailto:manda.fischer@mail.utoronto.ca"><img src="/assets/icons/envelope-solid.svg" width="25" /></a>
-<a href="https://scholar.google.com/citations?hl=en&user=WVWtxUkAAAAJ"><img src="/assets/icons/google-scholar.svg" width="25" /></a>
-   <a href="https://www.researchgate.net/profile/Manda-Fischer"><img src="/assets/icons/ResearchGate.svg" width="20" /></a>
+  <a href="mailto:manda.fischer@mail.utoronto.ca"><img src="/assets/icons/envelope-solid.svg" width="35" /></a>
+<a href="https://scholar.google.com/citations?hl=en&user=WVWtxUkAAAAJ"><img src="/assets/icons/google-scholar.svg" width="35" /></a>
+   <a href="https://www.researchgate.net/profile/Manda-Fischer"><img src="/assets/icons/ResearchGate.svg" width="30" /></a>
 </p>
 
 
