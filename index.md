@@ -1,6 +1,6 @@
 ---
 ---
-**As an Alexander Graham Bell doctoral researcher, I am examining the relation between attention, memory, and awareness** (advisors: [Morris Moscovitch](https://www.psych.utoronto.ca/people/directories/all-faculty/morris-moscovitch) and [Claude Alain](https://www.psych.utoronto.ca/people/directories/all-faculty/claude-alain) at The University of Toronto and Rotman Research Institute at Baycrest Hospital).
+**As an Alexander Graham Bell doctoral researcher, I am examining the relation between attention, memory, and awareness** (advisors: <a href="https://www.psych.utoronto.ca/people/directories/all-faculty/morris-moscovitch" target="_blank">Morris Moscovitch</a> and <a href="https://www.psych.utoronto.ca/people/directories/all-faculty/claude-alain" target="_blank">Claude Alain</a> at The University of Toronto and Rotman Research Institute at Baycrest Hospital).
 
 My present work fascinates me. Using EEG and behavioural measures, we have shown how auditory experience and memory can optimize attention and performance during processing of real-world soundscapes. 
 My previous BSc work at McGill University in psychoacoustics (timbre & attention) and auditory cognitive neuroscience (neural encoding of music memory & learning) led me to want to know more about the role of real-world sound in memory and attention.
@@ -14,4 +14,4 @@ Please find my CV - **[here](assets/CV.pdf)**
 </p>
 
 
-<a href="https://www.psych.utoronto.ca/people/directories/all-faculty/morris-moscovitch" target="_blank">example</a>
+
