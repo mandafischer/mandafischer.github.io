@@ -1,5 +1,6 @@
 ---
 ---
+**As an Alexander Graham Bell doctoral researcher, I am examining the relation between attention, memory, and awareness (advisors: Morris Moscovitch and Claude Alain at The University of Toronto and Rotman Research Institute at Baycrest Hospital).**
 
 I have been investigating the dynamic interplay between attention and memory. My present work fascinates me. Using EEG and behavioural measures, we have shown how auditory experience and memory can optimize attention and performance during processing of real-world soundscapes. 
 
