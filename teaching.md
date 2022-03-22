@@ -1,5 +1,4 @@
 ### Advised and trained | Rotman Research Institute at Baycrest Hospital
-
 I created a manual on EEG experimentation (76-channel system and audiometer set-up) and analyses and then trained them. Meeting with students weekly, I set up term goals to work with them at each research step: acquisition, analysis, and write-up.
 
 •	Undergraduate mini-thesis student (4 months expected) | S. Mo (2022)\
@@ -8,8 +7,6 @@ I created a manual on EEG experimentation (76-channel system and audiometer set-
 •	Undergraduate research student | S. Paracha (8 months) (2019)\
 •	Undergraduate research student | K. Ramdeo (4 months) (2019)\
 •	Undergraduate research student | P. Tajbakhsh (4 months) (2019)
-
-
 
 ### Tutorial leader | University of Toronto 
 •	PSY202H (Statistics II)
@@ -27,8 +24,7 @@ I led review tutorials and fielded student questions.
 •	PSY493H1 Cognitive Neuroscience
 
 I gave an in-depth presentation adn review on perceptual grouping and music reseach. 
-Feedback from students (N = 12), Items on scale from 1-5: 4.7 overall in terms of clarity of content, delivery, organization, use of visual aids, enthusiasm, responsive to questions, overal lecturer quality.
-
+Feedback from students (N = 12), Items on scale from 1-5: 4.7 overall in terms of clarity of content, delivery, organization, use of visual aids, enthusiasm, responsiveness to questions, overal lecturer quality.
 
 ### Teaching Assistantships | University of Toronto (2018 - present)
 •	PSY202 (Statistics II)\
