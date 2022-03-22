@@ -14,7 +14,7 @@ was credited and a prerequisite to teach psychology undergraduate courses.
 ### Tutorial leader | University of Toronto 
 •	PSY202H (Statistics II)
 
-I led weekly tutorials on advanced undergraduate statistical concepts. I was also responsible for preparing graded worksheets and taught students how to use the statistical software JAMOVI and G*Power.
+I led weekly tutorials on advanced undergraduate statistical concepts. I was also responsible for preparing graded worksheets and taught students how to use the statistical softwares JAMOVI and G*Power.
 
 Feedback from students (N = 11), Items on scale from 1-7: 6.8 overall in terms of being knowledgeable, prepared, responsive, respectful, and invested in student's success.
 
