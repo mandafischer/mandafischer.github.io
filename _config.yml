@@ -36,7 +36,7 @@ nav-links:
 # for the homepage image + big text next to it
 greeting_image: /assets/me.jpg
 # 100-200 characters recommended
-greeting_text: "Hello! I’m Manda. As an Alexander Graham Bell doctoral researcher, I am examining the relation between attention, memory, and awareness (advisors: Morris Moscovitch and Claude Alain at The University of Toronto and Rotman Research Institute at Baycrest Hospital)."
+greeting_text: Hello! I’m Manda. 
 # show blog post excerpts on blog page
 show_excerpts: false
 excerpt_word_count: 70
