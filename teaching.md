@@ -1,15 +1,15 @@
-### Teaching Workshop 2021 | University of Toronto
-In this workshop, we were trained in preparation, persuasion, performance, presentation,
-and Psychagogy (the integration of psychology and pedagogy). This teaching workshop
-was credited and a prerequisite to teach psychology undergraduate courses.
-
 ### Advised and trained | Rotman Research Institute at Baycrest Hospital
+
+I created a manual on EEG experimentation (76-channel system and audiometer set-up) and analyses and then trained them. Meeting with students weekly, I set up term goals to work with them at each research step: acquisition, analysis, and write-up.
+
 •	Undergraduate mini-thesis student (4 months expected) | S. Mo (2022)\
 •	Undergraduate volunteer student (7 months) | S. Mo (2021)\
 •	Undergraduate thesis co-op student (8 months) | J.M. Soto (2021)\
 •	Undergraduate research student | S. Paracha (8 months) (2019)\
 •	Undergraduate research student | K. Ramdeo (4 months) (2019)\
 •	Undergraduate research student | P. Tajbakhsh (4 months) (2019)
+
+
 
 ### Tutorial leader | University of Toronto 
 •	PSY202H (Statistics II)
@@ -37,3 +37,8 @@ Feedback from students (N = 12), Items on scale from 1-5: 4.7 overall in terms o
 •	PSY230 (Personality Psychology)\
 •	PSY220 (Introduction to Social Psychology)\
 •	PSY100 (Introduction to Psychology)
+
+### Teaching Workshop 2021 | University of Toronto
+I was trained in preparation, persuasion, performance, presentation,
+and Psychagogy (the integration of psychology and pedagogy). This teaching workshop
+was credited and a prerequisite to teach psychology undergraduate courses.
