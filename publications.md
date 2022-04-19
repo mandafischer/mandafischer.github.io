@@ -11,10 +11,3 @@
 
 **Fischer, M.**, Moscovitch, M., Keisuke, F., & Alain, C. (submitted). Ready for Action: Directed attention at encoding facilitates covert response preparation.
 
-**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Parietal source-localized alpha-band power facilitates memory-guided attention in real-world sound-clips. 
-
-**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). An ERP marker for memory-guided attention: Attention at learning modulates implicit memory for real-world soundscapes at retrieval. 
-
-**Fischer, M.**, Moscovitch, M.,&  Alain, C. (in prep). Lasting memory-guided attention: Memory representations that are robust to time and frequency changes. 
-
-**Fischer, M.**, Guastavino, C., & McAdams, S. (in prep). The role of timbre in orchestral stratification: Examining the complex intersection of auditory perception, attention, and art. 
