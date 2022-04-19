@@ -7,11 +7,11 @@ I created a manual on EEG experimentation (76-channel system and audiometer set-
 
 •	Undergraduate volunteer student (7 months) | S. Mo (2021) 
 
-•	Undergraduate research student | S. Paracha (8 months) (2019) 
+•	Undergraduate research student (8 months) | S. Paracha (2019-202) 
 
-•	Undergraduate research student | K. Ramdeo (4 months) (2019) 
+•	Undergraduate research student (4 months) | K. Ramdeo (2019) 
 
-•	Undergraduate research student | P. Tajbakhsh (4 months) (2019)
+•	Undergraduate research student (4 months) | P. Tajbakhsh (2019)
 
 ### **Tutorial leader** | University of Toronto 
 •	PSY202H (Statistics II)
