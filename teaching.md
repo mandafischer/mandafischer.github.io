@@ -19,7 +19,7 @@ I created a manual on EEG experimentation (76-channel system and audiometer set-
 I gave an in-depth presentation and review on perceptual grouping and music research. 
 Feedback from students (N = 12), Items on scale from 1-5: **4.7** overall in terms of clarity of content, delivery, organization, use of visual aids, enthusiasm, responsiveness to questions, overall lecturer quality.
 
-### **Tutorial leader** | University of Toronto 
+### **Tutorial Leader** | University of Toronto 
 •	PSY202H (Statistics II)
 
 I led weekly tutorials on advanced undergraduate statistical concepts. I was also responsible for preparing graded worksheets and taught students how to use the statistical software JAMOVI and G*Power.
