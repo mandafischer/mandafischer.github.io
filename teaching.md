@@ -39,7 +39,7 @@ Feedback from students (N = 12), Items on scale from 1-5: **4.7** overall in ter
 •	PSY220 (Introduction to Social Psychology)\
 •	PSY100 (Introduction to Psychology)
 
-### Teaching Workshop 2021 | University of Toronto
+## Teaching Workshop 2021 | University of Toronto
 I was trained in preparation, persuasion, performance, presentation,
 and Psychagogy (the integration of psychology and pedagogy). This teaching workshop
 was credited and a prerequisite to teach psychology undergraduate courses.
