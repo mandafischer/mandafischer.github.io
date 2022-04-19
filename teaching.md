@@ -13,6 +13,12 @@ I created a manual on EEG experimentation (76-channel system and audiometer set-
 
 •	Undergraduate research student (4 months) | P. Tajbakhsh (2019)
 
+### **Invited Guest Lecturer** | University of Toronto (April 2019)
+•	PSY493H1 Cognitive Neuroscience
+
+I gave an in-depth presentation and review on perceptual grouping and music research. 
+Feedback from students (N = 12), Items on scale from 1-5: **4.7** overall in terms of clarity of content, delivery, organization, use of visual aids, enthusiasm, responsiveness to questions, overall lecturer quality.
+
 ### **Tutorial leader** | University of Toronto 
 •	PSY202H (Statistics II)
 
@@ -24,12 +30,6 @@ Feedback from students (N = 11), Items on scale from 1-7: **6.8** overall in ter
 •	PSY100S (Introduction to Psychology)
 
 I led review tutorials and fielded student questions. 
-
-### **Invited Guest Lecturer** | University of Toronto (April 2019)
-•	PSY493H1 Cognitive Neuroscience
-
-I gave an in-depth presentation and review on perceptual grouping and music research. 
-Feedback from students (N = 12), Items on scale from 1-5: **4.7** overall in terms of clarity of content, delivery, organization, use of visual aids, enthusiasm, responsiveness to questions, overall lecturer quality.
 
 ### **Teaching Assistant** | University of Toronto (2018 - present)
 •	PSY202 (Statistics II)\
