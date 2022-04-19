@@ -7,7 +7,7 @@
 
 **Fischer, M.**, Soden, K., Thoret, E., Montrey, M., & McAdams, S. (2021). Instrument timbre enhances perceptual segregation in orchestral music. *Music Perception, 38*(5), 473-498. https://doi.org/10.1525/mp.2021.38.5.473. [PDF here](/assets/pubs/MP.pdf)
 
-### Manuscripts in preparation & submitted for peer-review
+### Manuscripts submitted for peer-review
 
 **Fischer, M.**, Moscovitch, M., Keisuke, F., & Alain, C. (submitted). Ready for Action: Directed attention at encoding facilitates covert response preparation.
 
