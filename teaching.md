@@ -1,17 +1,17 @@
 ### Research mentor | Rotman Research Institute at Baycrest Hospital
 I created a manual on EEG experimentation (76-channel system and audiometer set-up) and analyses and then advised and trained students. Meeting with students weekly, I set up term goals to work and advise them at each research step: acquisition, analysis, and thesis write-up. 
 
-•	Undergraduate mini-thesis student | S. Mo (2022) 
+•	Undergraduate mini-thesis student &#124; S. Mo (2022) 
 
-•	Undergraduate thesis co-op student | J.M. Soto (2021-2022) 
+•	Undergraduate thesis co-op student &#124; J.M. Soto (2021-2022) 
 
-•	Undergraduate volunteer student | S. Mo (2021) 
+•	Undergraduate volunteer student &#124; S. Mo (2021) 
 
-•	Undergraduate research student | S. Paracha (2019-202) 
+•	Undergraduate research student &#124; S. Paracha (2019-2020) 
 
-•	Undergraduate research student | K. Ramdeo (2019) 
+•	Undergraduate research student &#124; K. Ramdeo (2019) 
 
-•	Undergraduate research student | P. Tajbakhsh (2019)
+•	Undergraduate research student &#124; P. Tajbakhsh (2019)
 
 ### Invited guest lecturer | University of Toronto (PSY493H1 Cognitive Neuroscience, April 2019)
 
