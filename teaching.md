@@ -40,5 +40,5 @@ I led review tutorials and fielded student questions.
 
 ### Teaching Workshop Attendee | University of Toronto
 I was trained in preparation, persuasion, performance, presentation,
-and Psychagogy (the integration of psychology and pedagogy). This teaching workshop
+and Psychagogy (integration of psychology and pedagogy). This teaching workshop
 was credited and a prerequisite to teach psychology undergraduate courses.
