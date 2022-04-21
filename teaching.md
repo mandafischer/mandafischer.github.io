@@ -1,4 +1,4 @@
-### **Research Advisor** | Rotman Research Institute at Baycrest Hospital
+### Research Advisor | Rotman Research Institute at Baycrest Hospital
 I created a manual on EEG experimentation (76-channel system and audiometer set-up) and analyses and then advised and trained students. Meeting with students weekly, I set up term goals to work and advise them at each research step: acquisition, analysis, and thesis write-up. 
 
 •	Undergraduate mini-thesis student (4 months expected) | S. Mo (2022) 
