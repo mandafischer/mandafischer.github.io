@@ -20,9 +20,9 @@ nav-links:
   - name: Publications
     url: /publications
     external: false
-  - name: Research
-    url: /research
-    external: false
+#  - name: Research
+#    url: /research
+#    external: false
   - name: Teaching
     url: /teaching
     external: false
