@@ -1,4 +1,4 @@
-### Research Advisor | Rotman Research Institute at Baycrest Hospital
+### Research mentor | Rotman Research Institute at Baycrest Hospital
 I created a manual on EEG experimentation (76-channel system and audiometer set-up) and analyses and then advised and trained students. Meeting with students weekly, I set up term goals to work and advise them at each research step: acquisition, analysis, and thesis write-up. 
 
 •	Undergraduate mini-thesis student (4 months expected) | S. Mo (2022) 
@@ -13,13 +13,12 @@ I created a manual on EEG experimentation (76-channel system and audiometer set-
 
 •	Undergraduate research student (4 months) | P. Tajbakhsh (2019)
 
-### **Invited Guest Lecturer** | University of Toronto (April 2019)
-•	PSY493H1 Cognitive Neuroscience
+### Invited guest lecturer | University of Toronto (PSY493H1 Cognitive Neuroscience, April 2019)
 
 I gave an in-depth presentation and review on perceptual grouping and music research. 
 Feedback from students (N = 12), Items on scale from 1-5: **4.7** overall in terms of clarity of content, delivery, organization, use of visual aids, enthusiasm, responsiveness to questions, overall lecturer quality.
 
-### **Tutorial Leader** | University of Toronto 
+### Tutorial leader | University of Toronto 
 •	PSY202H (Statistics II)
 
 I led weekly tutorials on advanced undergraduate statistical concepts. I was also responsible for preparing graded worksheets and taught students how to use the statistical software JAMOVI and G*Power.
@@ -31,7 +30,7 @@ Feedback from students (N = 11), Items on scale from 1-7: **6.8** overall in ter
 
 I led review tutorials and fielded student questions. 
 
-### **Teaching Assistant** | University of Toronto (2018 - present)
+### Teaching assistant | University of Toronto (2018 - present)
 •	PSY202 (Statistics II)\
 •	PSY201 (Statistics I): 6 sessions\
 •	PSY203 (Psychological Research)\
@@ -39,7 +38,7 @@ I led review tutorials and fielded student questions.
 •	PSY220 (Introduction to Social Psychology)\
 •	PSY100 (Introduction to Psychology)
 
-### **Teaching Workshop Attendee** | University of Toronto
+### Teaching Workshop Attendee | University of Toronto
 I was trained in preparation, persuasion, performance, presentation,
 and Psychagogy (the integration of psychology and pedagogy). This teaching workshop
 was credited and a prerequisite to teach psychology undergraduate courses.
