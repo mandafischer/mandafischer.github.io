@@ -6,7 +6,12 @@
 
 **Fischer, M.**, Soden, K., Thoret, E., Montrey, M., & McAdams, S. (2021). Instrument timbre enhances perceptual segregation in orchestral music. *Music Perception, 38*(5), 473-498. https://doi.org/10.1525/mp.2021.38.5.473. [PDF here](/assets/pubs/MP.pdf)
 
-### Manuscripts submitted for peer-review
+### Manuscripts submitted for peer-review and in preparation
 
 **Fischer, M.**, Moscovitch, M., Keisuke, F., & Alain, C. (submitted). Ready for Action: Directed attention at encoding facilitates covert response preparation.
+
+**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Parietal source-localized alpha-band power facilitates memory-guided attention in real-world sound-clips. [Poster here](/assets/pubs/FischerCNS2022.pdf)
+
+**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Lasting memory-guided attention: Memory representations that are robust to time and frequency changes. [Poster here](/assets/pubs/FischerSfN2021.pdf)
+
 
