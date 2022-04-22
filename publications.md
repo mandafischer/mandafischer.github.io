@@ -10,8 +10,8 @@
 
 **Fischer, M.**, Moscovitch, M., Keisuke, F., & Alain, C. (submitted). Ready for Action: Directed attention at encoding facilitates covert response preparation.
 
-**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Parietal source-localized alpha-band power facilitates memory-guided attention in real-world sound-clips. [Poster here](/assets/pubs/FischerCNS2022.pdf)
+**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Parietal source-localized alpha-band power facilitates memory-guided attention in real-world sound-clips. [Poster here](/assets/FischerCNS2022.pdf)
 
-**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Lasting memory-guided attention: Memory representations that are robust to time and frequency changes. [Poster here](/assets/pubs/FischerSfN2021.pdf)
+**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Lasting memory-guided attention: Memory representations that are robust to time and frequency changes. [Poster here](/assets/FischerSfN2021.pdf)
 
 
