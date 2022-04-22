@@ -12,6 +12,6 @@
 
 **Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Parietal source-localized alpha-band power facilitates memory-guided attention in real-world sound-clips. [Poster here](/assets/FischerCNS2022.pdf)
 
-**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Lasting memory-guided attention: Memory representations that are robust to time and frequency changes. [Poster here](/assets/FischerSfN2021.pdf)
+**Fischer, M.**, Moscovitch, M., & Alain, C. (in prep). Lasting memory-guided attention: Memory representations that are robust to time and frequency changes. [Video here](https://www.dropbox.com/s/ufp36q8myez0bxd/SFN2021.mp4?dl=0)
 
 
