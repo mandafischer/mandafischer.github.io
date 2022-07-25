@@ -6,7 +6,7 @@ My present work fascinates me. Using EEG and behavioural measures, I examine the
 
 My previous BSc work at McGill University in psychoacoustics (timbre & attention) and auditory cognitive neuroscience (neural encoding of music memory & learning) led me to want to know more about the role of real-world sound in memory and attention.
 
-Please find my CV - **[here](assets/CV.pdf)**
+Please find my CV - **[here](assets/CV1.pdf)**
 
 <p float="left">
   <a href="mailto:manda.fischer@mail.utoronto.ca"><img src="/assets/icons/envelope-solid.svg" width="35" /></a>
