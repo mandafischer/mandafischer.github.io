@@ -229,9 +229,12 @@ strong{
 }
 
 .about-image img{
-  max-width: 15rem;    adjust this number to resize */
+  max-width: 15rem;
   width: 100%;
   height: auto;
-  /*border-radius: 0.5rem; */
- /* box-shadow: 0 1rem 2rem rgba(0,0,0,0.08);*/
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
 }
+
