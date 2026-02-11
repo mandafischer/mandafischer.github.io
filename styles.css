@@ -7,7 +7,7 @@
   --text:#111111;
   --muted:#6b7280;
   --rule:#e5e7eb;
-  --accent:#6b8fb1; /* change if you want */
+  --accent:#6b8fb1;
   --sidebar-w: 360px;
   --shadow: 0 10px 25px rgba(0,0,0,.06);
 }
@@ -43,7 +43,6 @@ body{
   top: 0;
   height: 100vh;
   overflow: auto;
-
   padding:64px 48px;
   border-right:6px solid var(--rule);
   display:flex;
@@ -152,6 +151,16 @@ body{
 .content{
   max-width: 860px;
   padding-top: 10px;
+}
+
+/* Link styling inside content */
+.content a{
+  color:var(--accent);
+  text-decoration:none;
+}
+
+.content a:hover{
+  text-decoration:underline;
 }
 
 .section-title{
