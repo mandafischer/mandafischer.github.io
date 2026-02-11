@@ -41,7 +41,7 @@ body{
   display:grid;
   grid-template-columns: var(--sidebar-w) 1fr;
 
-  max-width: 84rem;      /* ~1350px */
+  max-width: 72rem;      /* ~1350px */
   margin: 4rem auto;
 }
 
