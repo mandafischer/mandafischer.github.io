@@ -20,7 +20,7 @@ html, body{
 }
 
 html{
-  font-size:13px;   /* 16px × 0.8 ≈ 13px */
+  font-size:16px;   /* 16px × 0.8 ≈ 13px */
 }
 
 body{
@@ -84,6 +84,12 @@ body{
   font-size:1.65rem;
   text-align:center;
   white-space: nowrap;  
+}
+
+.degree{
+  font-size: 0.8em;
+  font-weight:400;
+  letter-spacing: 0.02em;
 }
 
 .meta{
