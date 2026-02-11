@@ -29,10 +29,12 @@ body{
 }
 
 .page{
-  min-height:100vh;
-  display:grid;
-  grid-template-columns: var(--sidebar-w) 1fr;
+  max-width: 1400px;
+  margin: 60px auto;
+  background: #fff;
+  box-shadow: 0 30px 60px rgba(0,0,0,.05);
 }
+
 
 /* =========================
    SIDEBAR
