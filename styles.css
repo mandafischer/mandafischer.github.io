@@ -149,9 +149,23 @@ body{
 }
 
 .content{
-  max-width: 860px;
+  max-width: 720px;   /* narrower = more elegant */
   padding-top: 10px;
 }
+
+.content p{
+  text-align: left;
+  margin: 0 0 18px 0;  /* slightly more breathing room */
+  line-height: 1.7;    /* improved readability */
+}
+
+.lede{
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0 0 22px 0;
+  font-weight: 400;
+}
+
 
 /* Link styling inside content */
 .content a{
@@ -188,6 +202,9 @@ body{
   margin:28px 0;
 }
 
+strong{
+  font-weight: 600;   /* softer than heavy bold */
+}
 /* =========================
    MOBILE
 ========================= */
