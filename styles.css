@@ -229,7 +229,7 @@ strong{
 }
 
 .about-image img{
-  max-width: 25rem;   /* adjust this number to resize */
+  max-width: 15rem;   /* adjust this number to resize */
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
