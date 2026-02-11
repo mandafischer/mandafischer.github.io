@@ -210,3 +210,21 @@ body{
 strong{
   font-weight:600;
 }
+
+/* =========================
+   ABOUT IMAGE
+========================= */
+
+.about-image{
+  margin: 4rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img{
+  max-width: 32rem;   /* adjust this number to resize */
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.08);
+}
