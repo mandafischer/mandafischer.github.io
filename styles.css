@@ -174,7 +174,8 @@ body{
 }
 
 .content a:hover{
-  text-decoration:underline;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .section-title{
