@@ -380,8 +380,15 @@ strong{
   margin-top: 1.1rem;
   font-size: 0.78rem;
   color: #9aa0a6;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.funding-legend p{
+  margin: 0;               /* remove default paragraph spacing */
+}
+
+.funding-legend p + p{
+  margin-top: 0.15rem;     /* tiny controlled gap between lines */
 }
 
 .funding-legend strong{
