@@ -557,3 +557,28 @@ strong{
     height: 200px;
   }
 }
+
+/* =========================
+   CV: FULL-WIDTH VIEWER
+========================= */
+
+/* Ensure CV section is not constrained by .content */
+.content.cv-content{
+  max-width: none;
+  width: 100%;
+}
+
+/* Let the PDF viewer “bleed” into the main padding a bit */
+.cv-viewer{
+  margin-top: 1.5rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
+
+/* Make iframe actually use that extra space */
+.cv-viewer iframe{
+  width: calc(100% + 2.5rem);
+  height: 88vh;        /* a touch taller feels nicer */
+  border: 0;
+  display: block;
+}
