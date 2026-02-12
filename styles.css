@@ -240,6 +240,9 @@ strong{
   max-width: 15rem;
   height: auto;
   display: block;
+
+  /* reduce saturation (tweak %) */
+  filter: saturate(70%);
 }
 
 .about-question{
