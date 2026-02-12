@@ -144,7 +144,7 @@ body{
 ========================= */
 
 .main{
-  padding: 0.9rem 4rem 2.5rem 4rem; /* pulls tabs up */
+  padding: 0.9rem 34rem 2.5rem 3rem; /* pulls tabs up */
   min-width: 0; /* prevents grid overflow causing horizontal scroll */
 }
 
@@ -178,7 +178,8 @@ body{
 }
 
 .content{
-  max-width: 45rem;
+  max-width: 58rem;
+  width: 100%;
   padding-top: 0.35rem;
   font-size: 1.06rem;
   min-width: 0; /* prevents long content from forcing scroll */
