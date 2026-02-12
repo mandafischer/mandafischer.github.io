@@ -19,9 +19,9 @@ html, body{
   margin:0;
 }
 
-/* Prevent any horizontal scrolling across browsers */
+/* Kill phantom horizontal scrollbars across browsers */
 html{
-  font-size:16px; /* keep layout stable (rem-based widths) */
+  font-size:16px;
   overflow-x: hidden;
 }
 
@@ -32,7 +32,7 @@ body{
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
-  overflow-x: hidden; /* backup in case a child overflows */
+  overflow-x: hidden; /* backup */
 }
 
 /* =========================
@@ -43,9 +43,16 @@ body{
   min-height:100vh;
   display:grid;
   grid-template-columns: var(--sidebar-w) 1fr;
-  max-width: 72rem;        /* ~1152px at 16px root */
-  margin: 1.5rem 0;        /* flush left (no auto-centering) */
-  padding-right: 0;        /* explicit */
+
+  /* Make the whole site feel less “boxed in” */
+  max-width: 84rem;     /* wider than before */
+  width: 100%;
+
+  /* Flush left (no centering gutter) */
+  margin: 1.5rem 0;
+
+  /* Prevent any accidental overflow from borders/padding */
+  overflow-x: hidden;
 }
 
 /* =========================
@@ -56,13 +63,21 @@ body{
   position: sticky;
   top: 0;
   height: 100vh;
-  overflow: auto;
-  padding:3.25rem 3rem; /* slightly tighter to match higher top */
+
+  /* IMPORTANT: prevent useless horizontal scrollbar */
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding:3.25rem 3rem;
   border-right:0.375rem solid var(--rule);
+
   display:flex;
   flex-direction:column;
   align-items:center;
   gap:0.9rem;
+
+  /* Prevent children from forcing sidebar wider */
+  min-width: 0;
 }
 
 .avatar-wrap{
@@ -80,6 +95,7 @@ body{
   display:block;
 }
 
+/* Prevent name from forcing horizontal overflow in some browsers */
 .name{
   margin:1.2rem 0 0 0;
   font-family:"Montserrat", sans-serif;
@@ -87,9 +103,8 @@ body{
   font-size:1.65rem;
   text-align:center;
 
-  /* Prevent horizontal overflow on smaller screens/browsers */
-  white-space: normal;         /* was nowrap */
-  overflow-wrap: anywhere;     /* break if needed */
+  white-space: normal;       /* was nowrap */
+  overflow-wrap: anywhere;   /* breaks long tokens safely */
   max-width: 100%;
 }
 
@@ -144,15 +159,16 @@ body{
 ========================= */
 
 .main{
-  padding: 0.9rem 34rem 2.5rem 3rem; /* pulls tabs up */
-  min-width: 0; /* prevents grid overflow causing horizontal scroll */
+  /* smaller side padding so content can extend right */
+  padding: 0.9rem 3rem 2.5rem 3rem;  /* was 4rem */
+  min-width: 0; /* prevents grid overflow */
 }
 
 .topnav{
   display:flex;
   justify-content:flex-end;
-  padding: 0;            /* flush to top */
-  margin-top: -0.2rem;   /* tiny nudge up */
+  padding: 0;
+  margin-top: -0.2rem;
 }
 
 .topnav nav{
@@ -177,12 +193,13 @@ body{
   border-bottom-color:var(--text);
 }
 
+/* Make page text use more of the available width */
 .content{
-  max-width: 58rem;
+  max-width: 60rem;     /* was 45rem */
   width: 100%;
   padding-top: 0.35rem;
   font-size: 1.06rem;
-  min-width: 0; /* prevents long content from forcing scroll */
+  min-width: 0;
 }
 
 .content p{
@@ -238,9 +255,9 @@ strong{
 .about-bottom{
   margin: 4rem 0 2rem 0;
   display: grid;
-  grid-template-columns: 15rem 1fr; /* image left, text right */
+  grid-template-columns: 15rem 1fr;
   gap: 2.5rem;
-  align-items: end; /* align text to bottom of image */
+  align-items: end;
 }
 
 .about-image{
@@ -290,16 +307,21 @@ strong{
 ========================= */
 
 .cv-content{
-  max-width: none;       /* allow full width */
+  max-width: none;   /* allow full width */
+  width: 100%;
 }
 
 .cv-viewer{
   margin-top: 1.5rem;
+
+  /* a little “bleed” so the PDF doesn’t look clipped */
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 
 .cv-viewer iframe{
-  width: 100%;
-  height: 85vh;
+  width: calc(100% + 2rem);
+  height: 88vh;
   border: none;
   display: block;
 }
@@ -398,11 +420,9 @@ strong{
 .funding-legend p{
   margin: 0;
 }
-
 .funding-legend p + p{
   margin-top: 0.15rem;
 }
-
 .funding-legend strong{
   font-weight: 600;
   color: #8b9096;
@@ -447,7 +467,7 @@ strong{
   color: var(--muted);
 }
 
-/*Funding Summary */
+/* Funding Summary */
 .funding-summary {
   font-size: 1.05rem;
   margin: 1.25rem 0 1.75rem;
@@ -464,23 +484,19 @@ strong{
 
 .research-block{
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1.2fr 0.8fr;
   gap: 2.75rem;
   margin: 2.75rem 0;
   align-items: center;
+  min-width: 0;
 }
 
 .research-block.reverse{
-  grid-template-columns: 0.85fr 1.15fr;
+  grid-template-columns: 0.8fr 1.2fr;
 }
 
-.research-block.reverse .research-text{
-  order: 2;
-}
-
-.research-block.reverse .research-image{
-  order: 1;
-}
+.research-block.reverse .research-text{ order: 2; }
+.research-block.reverse .research-image{ order: 1; }
 
 .research-content .theme-title{
   font-family: "Montserrat", sans-serif;
@@ -494,28 +510,50 @@ strong{
 }
 
 /* =========================
-   RESEARCH IMAGES (REAL)
+   RESEARCH IMAGES (SHOW FULL IMAGE, NO ZOOM/CROP)
 ========================= */
+
+/*
+  Goal:
+  - show the full image (no cropping)
+  - do NOT scale up when the window gets bigger
+  - allow scaling down on small screens
+*/
 
 .research-image{
   margin: 0;
   border-radius: 14px;
   border: 1px solid var(--rule);
   box-shadow: var(--shadow);
-  background: #f4f6f4;
+  background: #fff;
 
-  overflow: hidden;
-  height: 220px;
-  display: block;
+  /* keep figure from stretching bigger than the image */
+  justify-self: end;
+  max-width: 100%;
+
+  /* remove fixed height so image keeps its own proportions */
+  height: auto;
+
+  /* no overflow clipping needed since we aren't cropping */
+  overflow: visible;
 }
 
+/* Image keeps intrinsic size, but can shrink to fit column */
 .research-image img{
-  width: 100%;
-  height: 100%;
   display: block;
-  object-fit: cover;
+  width: auto;          /* do not stretch */
+  height: auto;         /* preserve aspect ratio */
+  max-width: 100%;      /* shrink if needed */
+  max-height: none;
+  object-fit: contain;  /* harmless here; ensures no cropping if constrained */
 }
 
+/* Keep the same behavior when reversed (image on left) */
+.research-block.reverse .research-image{
+  justify-self: start;
+}
+
+/* Placeholder pattern (only if you still use placeholders anywhere) */
 .research-image.placeholder{
   background:
     linear-gradient(135deg, #eef3ee 25%, transparent 25%) -20px 0,
@@ -523,13 +561,18 @@ strong{
     linear-gradient(315deg, #eef3ee 25%, transparent 25%),
     linear-gradient(45deg, #eef3ee 25%, transparent 25%);
   background-size: 40px 40px;
+  min-height: 220px; /* so placeholders still look intentional */
 }
 
-/* Mobile stack */
+/* =========================
+   MOBILE
+========================= */
+
 @media (max-width: 900px){
   .page{
     grid-template-columns: 1fr;
     margin: 0;              /* truly flush on mobile */
+    max-width: none;
   }
 
   .sidebar{
@@ -555,31 +598,35 @@ strong{
 
   .research-image{
     margin-top: 1.25rem;
-    height: 200px;
+    justify-self: start;
   }
 }
-
 /* =========================
-   CV: FULL-WIDTH VIEWER
+   FUNDING — CENTERED LAYOUT
 ========================= */
 
-/* Ensure CV section is not constrained by .content */
-.content.cv-content{
-  max-width: none;
-  width: 100%;
+/* Center the Funding page title */
+.funding-content .section-title{
+  text-align: center;
 }
 
-/* Let the PDF viewer “bleed” into the main padding a bit */
-.cv-viewer{
-  margin-top: 1.5rem;
-  margin-left: -1.25rem;
-  margin-right: -1.25rem;
+/* Center the intro paragraph if desired */
+.funding-content .lede{
+  text-align: center;
 }
 
-/* Make iframe actually use that extra space */
-.cv-viewer iframe{
-  width: calc(100% + 2.5rem);
-  height: 88vh;        /* a touch taller feels nicer */
-  border: 0;
-  display: block;
+/* Center the entire table */
+.funding-table{
+  text-align: center;
+}
+
+/* Override previous left/right alignments */
+.funding-table th,
+.funding-table td{
+  text-align: center !important;
+}
+
+/* Remove special right alignment for amount column */
+.col-amount{
+  text-align: center !important;
 }
