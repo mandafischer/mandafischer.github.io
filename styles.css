@@ -485,14 +485,30 @@ strong{
   color: var(--muted);
 }
 
-/* Image placeholders */
+/* =========================
+   RESEARCH IMAGES (REAL)
+========================= */
+
 .research-image{
-  height: 220px;
+  margin: 0;                 /* removes default figure margins */
   border-radius: 14px;
   border: 1px solid var(--rule);
   box-shadow: var(--shadow);
   background: #f4f6f4;
+
+  overflow: hidden;          /* IMPORTANT: prevents overlap */
+  height: 220px;             /* keeps your consistent card height */
+  display: block;
 }
+
+/* the actual <img> inside the figure */
+.research-image img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;         /* fills the box; crops if needed */
+}
+
 
 /* Subtle pattern so placeholders look intentional */
 .research-image.placeholder{
