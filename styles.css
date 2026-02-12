@@ -322,3 +322,49 @@ strong{
   line-height: 1.6;
 }
 
+/* =========================
+   FUNDING TABLE REFINEMENT
+========================= */
+
+.funding-table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* prevents weird shifting */
+}
+
+.funding-table th,
+.funding-table td{
+  text-align: left;
+  vertical-align: top;
+  padding: 0.85rem 0.5rem;
+}
+
+.funding-table thead th{
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--rule);
+}
+
+.funding-table tbody td{
+  border-bottom: 1px solid var(--rule);
+}
+
+.funding-table tbody tr:last-child td{
+  border-bottom: none;
+}
+
+/* Column widths */
+.col-year{
+  width: 5rem;
+}
+
+.col-amount{
+  width: 10rem;
+  text-align: right;   /* <-- this makes it look structured */
+}
+
+.col-scope{
+  width: 8rem;
+}
+
