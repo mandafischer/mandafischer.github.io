@@ -41,7 +41,7 @@ body{
   display:grid;
   grid-template-columns: var(--sidebar-w) 1fr;
   max-width: 72rem;      /* ~1152px at 16px root */
-  margin: 4rem auto;
+  margin: 1.5rem auto;   /* was 4rem auto (pulls everything up) */
 }
 
 /* =========================
@@ -53,7 +53,7 @@ body{
   top: 0;
   height: 100vh;
   overflow: auto;
-  padding:4rem 3rem;
+  padding:3.25rem 3rem; /* was 4rem 3rem (slightly tighter to match higher top) */
   border-right:0.375rem solid var(--rule);
   display:flex;
   flex-direction:column;
@@ -135,13 +135,14 @@ body{
 ========================= */
 
 .main{
-  padding:2.5rem 4rem;
+  padding: 0.9rem 4rem 2.5rem 4rem; /* was 2.5rem 4rem (pulls tabs up) */
 }
 
 .topnav{
   display:flex;
   justify-content:flex-end;
-  padding:0.6rem 0 1.4rem 0;
+  padding: 0;            /* was 0.6rem 0 1.4rem 0 (flush to top) */
+  margin-top: -0.2rem;   /* tiny nudge up to feel “faculty-site” tight */
 }
 
 .topnav nav{
@@ -151,11 +152,11 @@ body{
 }
 
 .topnav a{
-  font-size:1.1rem;
+  font-size:1.05rem;
   color:var(--text);
   text-decoration:none;
   border-bottom:2px solid transparent;
-  padding-bottom:0.4rem;
+  padding: 0 0 0.35rem 0;
 }
 
 .topnav a:hover{
@@ -168,8 +169,8 @@ body{
 
 .content{
   max-width: 45rem;
-  padding-top: 0.6rem;
-  font-size: 1.06rem; /* slightly larger body text (~17px) */
+  padding-top: 0.35rem;  /* was 0.6rem (brings content up slightly) */
+  font-size: 1.06rem;    /* slightly larger body text (~17px) */
 }
 
 .content p{
@@ -189,7 +190,7 @@ body{
   font-family:"Montserrat", sans-serif;
   font-weight:700;
   font-size:2.75rem;
-  margin:0.6rem 0 1rem 0;
+  margin:0.35rem 0 1rem 0; /* was 0.6rem (tightens header start) */
   color:var(--accent);
 }
 
@@ -316,7 +317,7 @@ strong{
   font-size: 0.95rem;
 }
 
-/* Funding page lede  */
+/* Funding page lede */
 .funding-content .lede{
   font-size: 1.1rem;   /* smaller than default lede */
   line-height: 1.6;
@@ -325,6 +326,11 @@ strong{
 /* =========================
    FUNDING TABLE REFINEMENT
 ========================= */
+
+.funding-table-wrap{
+  overflow-x: auto;
+  margin: 1rem 0 1.25rem 0;
+}
 
 .funding-table{
   width: 100%;
@@ -355,27 +361,32 @@ strong{
 }
 
 /* Column widths */
-.col-year{
-  width: 5rem;
-}
-
+.col-year{ width: 5rem; }
 .col-amount{
   width: 10rem;
-  text-align: right;   /* <-- this makes it look structured */
+  text-align: right;
+}
+.col-scope{ width: 8rem; }
+
+.muted{
+  color: var(--muted);
 }
 
-.col-scope{
-  width: 8rem;
-}
 /* =========================
-   FUNDING LEGEND
+   FUNDING LEGEND (SUBTLE)
 ========================= */
 
 .funding-legend{
-  margin-top: 1.2rem;
-  font-size: 0.85rem;
-  color: var(--muted);
+  margin-top: 1.1rem;
+  font-size: 0.78rem;
+  color: #9aa0a6;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.funding-legend strong{
+  font-weight: 600;
+  color: #8b9096;
 }
 
 /* =========================
@@ -383,18 +394,21 @@ strong{
 ========================= */
 
 .funding-logos{
-  margin: 1.5rem 0 2.5rem 0;
+  margin: 1.2rem 0 2.2rem 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 2.2rem;
   align-items: center;
-  opacity: 0.85; /* subtle, not flashy */
 }
 
 .funding-logos img{
-  height: 38px;
+  height: 40px;
+  max-width: 140px;
   width: auto;
   object-fit: contain;
+  display: block;
+  opacity: 0.9;
+  filter: grayscale(100%);
   transition: opacity .2s ease, filter .2s ease;
 }
 
@@ -414,4 +428,3 @@ strong{
   font-size: 1.05rem;
   color: var(--muted);
 }
-
