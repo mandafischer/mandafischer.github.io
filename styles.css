@@ -434,3 +434,14 @@ strong{
   font-size: 1.05rem;
   color: var(--muted);
 }
+
+/*Funding Summary */
+.funding-summary {
+  font-size: 1.05rem;
+  margin: 1.25rem 0 1.75rem;
+  padding-left: 1.2rem;
+}
+
+.funding-summary li {
+  margin-bottom: 0.5rem;
+}
