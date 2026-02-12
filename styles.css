@@ -238,3 +238,51 @@ strong{
   background: transparent;
 }
 
+/* =========================
+   ABOUT FIGURE + QUESTION
+========================= */
+
+.about-figure{
+  margin: 3rem 0 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 15rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-figure-text{
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--accent);
+}
+
+.about-figure-text p{
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.about-image{
+  margin: 0;
+}
+
+.about-image img{
+  max-width: 15rem;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+}
+
+/* Responsive stack */
+@media (max-width: 900px){
+  .about-figure{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .about-image img{
+    margin: 0 auto;
+  }
+}
+
