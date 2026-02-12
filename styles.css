@@ -630,3 +630,18 @@ strong{
 .col-amount{
   text-align: center !important;
 }
+
+/* =========================
+   FUNDING TABLE — CENTER CONTENT ONLY
+========================= */
+
+/* Center all table headers and cells */
+.funding-table th,
+.funding-table td{
+  text-align: center !important;
+}
+
+/* Remove special right alignment on amount column */
+.col-amount{
+  text-align: center !important;
+}
