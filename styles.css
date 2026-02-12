@@ -270,3 +270,52 @@ strong{
     padding-right: 0;
   }
 }
+
+/* =========================
+   CV PDF VIEWER
+========================= */
+
+.cv-content{
+  max-width: 60rem; /* wider for the PDF */
+}
+
+.cv-actions{
+  margin: 0 0 1rem 0;
+}
+
+.cv-download{
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--text);
+  background: #fff;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.cv-download:hover{
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+}
+
+.cv-viewer{
+  border: 1px solid var(--rule);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.cv-viewer iframe{
+  width: 100%;
+  height: min(75vh, 900px);
+  border: 0;
+  display: block;
+}
+
+.cv-updated{
+  margin-top: 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
