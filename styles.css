@@ -19,8 +19,10 @@ html, body{
   margin:0;
 }
 
+/* Prevent any horizontal scrolling across browsers */
 html{
   font-size:16px; /* keep layout stable (rem-based widths) */
+  overflow-x: hidden;
 }
 
 body{
@@ -30,6 +32,7 @@ body{
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
+  overflow-x: hidden; /* backup in case a child overflows */
 }
 
 /* =========================
@@ -40,8 +43,9 @@ body{
   min-height:100vh;
   display:grid;
   grid-template-columns: var(--sidebar-w) 1fr;
-  max-width: 72rem;      /* ~1152px at 16px root */
-  margin: 1.5rem auto;   /* was 4rem auto (pulls everything up) */
+  max-width: 72rem;        /* ~1152px at 16px root */
+  margin: 1.5rem 0;        /* flush left (no auto-centering) */
+  padding-right: 0;        /* explicit */
 }
 
 /* =========================
@@ -53,7 +57,7 @@ body{
   top: 0;
   height: 100vh;
   overflow: auto;
-  padding:3.25rem 3rem; /* was 4rem 3rem (slightly tighter to match higher top) */
+  padding:3.25rem 3rem; /* slightly tighter to match higher top */
   border-right:0.375rem solid var(--rule);
   display:flex;
   flex-direction:column;
@@ -82,7 +86,11 @@ body{
   font-weight:400;
   font-size:1.65rem;
   text-align:center;
-  white-space: nowrap;
+
+  /* Prevent horizontal overflow on smaller screens/browsers */
+  white-space: normal;         /* was nowrap */
+  overflow-wrap: anywhere;     /* break if needed */
+  max-width: 100%;
 }
 
 .degree{
@@ -97,6 +105,7 @@ body{
   font-size:0.95rem;
   text-align:center;
   line-height:1.2;
+  max-width: 100%;
 }
 
 .icon-row{
@@ -135,14 +144,15 @@ body{
 ========================= */
 
 .main{
-  padding: 0.9rem 4rem 2.5rem 4rem; /* was 2.5rem 4rem (pulls tabs up) */
+  padding: 0.9rem 4rem 2.5rem 4rem; /* pulls tabs up */
+  min-width: 0; /* prevents grid overflow causing horizontal scroll */
 }
 
 .topnav{
   display:flex;
   justify-content:flex-end;
-  padding: 0;            /* was 0.6rem 0 1.4rem 0 (flush to top) */
-  margin-top: -0.2rem;   /* tiny nudge up to feel “faculty-site” tight */
+  padding: 0;            /* flush to top */
+  margin-top: -0.2rem;   /* tiny nudge up */
 }
 
 .topnav nav{
@@ -169,8 +179,9 @@ body{
 
 .content{
   max-width: 45rem;
-  padding-top: 0.35rem;  /* was 0.6rem (brings content up slightly) */
-  font-size: 1.06rem;    /* slightly larger body text (~17px) */
+  padding-top: 0.35rem;
+  font-size: 1.06rem;
+  min-width: 0; /* prevents long content from forcing scroll */
 }
 
 .content p{
@@ -190,7 +201,7 @@ body{
   font-family:"Montserrat", sans-serif;
   font-weight:700;
   font-size:2.75rem;
-  margin:0.35rem 0 1rem 0; /* was 0.6rem (tightens header start) */
+  margin:0.35rem 0 1rem 0;
   color:var(--accent);
 }
 
@@ -240,8 +251,6 @@ strong{
   max-width: 15rem;
   height: auto;
   display: block;
-
-  /* reduce saturation (tweak %) */
   filter: saturate(70%);
 }
 
@@ -252,7 +261,7 @@ strong{
 
 .about-question p{
   margin: 0;
-  font-size: 0.95rem;   /* caption smaller than main body */
+  font-size: 0.95rem;
   line-height: 1.6;
   font-style: italic;
   color: var(--muted);
@@ -289,7 +298,7 @@ strong{
 
 .cv-viewer iframe{
   width: 100%;
-  height: 85vh;          /* nearly full screen */
+  height: 85vh;
   border: none;
   display: block;
 }
@@ -322,7 +331,7 @@ strong{
 
 /* Funding page lede */
 .funding-content .lede{
-  font-size: 1.1rem;   /* smaller than default lede */
+  font-size: 1.1rem;
   line-height: 1.6;
 }
 
@@ -338,7 +347,7 @@ strong{
 .funding-table{
   width: 100%;
   border-collapse: collapse;
-  table-layout: fixed; /* prevents weird shifting */
+  table-layout: fixed;
 }
 
 .funding-table th,
@@ -363,7 +372,6 @@ strong{
   border-bottom: none;
 }
 
-/* Column widths */
 .col-year{ width: 5rem; }
 .col-amount{
   width: 10rem;
@@ -387,11 +395,11 @@ strong{
   letter-spacing: 0.02em;
 }
 .funding-legend p{
-  margin: 0;               /* remove default paragraph spacing */
+  margin: 0;
 }
 
 .funding-legend p + p{
-  margin-top: 0.15rem;     /* tiny controlled gap between lines */
+  margin-top: 0.15rem;
 }
 
 .funding-legend strong{
@@ -449,7 +457,6 @@ strong{
   margin-bottom: 0.5rem;
 }
 
-
 /* =========================
    RESEARCH ALTERNATING LAYOUT
 ========================= */
@@ -490,27 +497,24 @@ strong{
 ========================= */
 
 .research-image{
-  margin: 0;                 /* removes default figure margins */
+  margin: 0;
   border-radius: 14px;
   border: 1px solid var(--rule);
   box-shadow: var(--shadow);
   background: #f4f6f4;
 
-  overflow: hidden;          /* IMPORTANT: prevents overlap */
-  height: 220px;             /* keeps your consistent card height */
+  overflow: hidden;
+  height: 220px;
   display: block;
 }
 
-/* the actual <img> inside the figure */
 .research-image img{
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;         /* fills the box; crops if needed */
+  object-fit: cover;
 }
 
-
-/* Subtle pattern so placeholders look intentional */
 .research-image.placeholder{
   background:
     linear-gradient(135deg, #eef3ee 25%, transparent 25%) -20px 0,
@@ -522,6 +526,22 @@ strong{
 
 /* Mobile stack */
 @media (max-width: 900px){
+  .page{
+    grid-template-columns: 1fr;
+    margin: 0;              /* truly flush on mobile */
+  }
+
+  .sidebar{
+    position: static;
+    height: auto;
+    border-right: 0;
+    border-bottom: 0.375rem solid var(--rule);
+  }
+
+  .main{
+    padding: 1.25rem 1.5rem 2.5rem 1.5rem;
+  }
+
   .research-block,
   .research-block.reverse{
     grid-template-columns: 1fr;
@@ -537,4 +557,3 @@ strong{
     height: 200px;
   }
 }
-
