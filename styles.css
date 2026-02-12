@@ -408,7 +408,6 @@ strong{
   object-fit: contain;
   display: block;
   opacity: 0.9;
-  filter: grayscale(100%);
   transition: opacity .2s ease, filter .2s ease;
 }
 
