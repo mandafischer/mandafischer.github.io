@@ -249,7 +249,6 @@ strong{
   font-size: 0.95rem;
   line-height: 1.6;
   font-style: italic;
-  color: var(--muted);  /* softer, more caption-like */
 }
 
 /* Stack for mobile */
