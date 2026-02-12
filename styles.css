@@ -367,4 +367,40 @@ strong{
 .col-scope{
   width: 8rem;
 }
+/* =========================
+   FUNDING LEGEND
+========================= */
+
+.funding-legend{
+  margin-top: 1.2rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* =========================
+   FUNDING LOGOS
+========================= */
+
+.funding-logos{
+  margin: 1.5rem 0 2.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  opacity: 0.85; /* subtle, not flashy */
+}
+
+.funding-logos img{
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: opacity .2s ease, filter .2s ease;
+}
+
+.funding-logos img:hover{
+  filter: grayscale(0%);
+  opacity: 1;
+}
 
