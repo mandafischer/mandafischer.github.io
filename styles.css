@@ -8,80 +8,59 @@
   --muted:#6b7280;
   --rule:#e5e7eb;
   --accent:#6B8F66;
-  --sidebar-w: 20rem;   /* fixed layout width via rem */
+  --sidebar-w: 20rem;
   --shadow: 0 0.625rem 1.5625rem rgba(0,0,0,.06);
 }
 
 *{ box-sizing:border-box; }
 
-html, body{
-  height:100%;
-  margin:0;
-}
-
-/* Kill phantom horizontal scrollbars across browsers */
 html{
   font-size:16px;
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 
 body{
+  margin:0;
+  min-height:100%;
   background:var(--bg);
   color:var(--text);
   font-family:"Lato", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
-  overflow-x: hidden; /* backup */
+  overflow-x:hidden;
 }
 
 /* =========================
-   LAYOUT FRAME
+   LAYOUT
 ========================= */
 
 .page{
   min-height:100vh;
   display:grid;
   grid-template-columns: var(--sidebar-w) 1fr;
-
-  /* Make the whole site feel less “boxed in” */
-  max-width: 84rem;     /* wider than before */
-  width: 100%;
-
-  /* Flush left (no centering gutter) */
-  margin: 1.5rem 0;
-
-  /* Prevent any accidental overflow from borders/padding */
-  overflow-x: hidden;
+  max-width:84rem;
+  width:100%;
+  margin:1.5rem 0;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
-
 .sidebar{
-  position: sticky;
-  top: 0;
-  height: 100vh;
-
-  /* IMPORTANT: prevent useless horizontal scrollbar */
-  overflow-y: auto;
-  overflow-x: hidden;
-
+  position:sticky;
+  top:0;
+  height:100vh;
+  overflow-y:auto;
+  overflow-x:hidden;
   padding:3.25rem 3rem;
   border-right:0.375rem solid var(--rule);
-
   display:flex;
   flex-direction:column;
   align-items:center;
   gap:0.9rem;
-
-  /* Prevent children from forcing sidebar wider */
-  min-width: 0;
+  min-width:0;
 }
 
 .avatar-wrap{
-  width:13.75rem;  /* 220px */
+  width:13.75rem;
   height:13.75rem;
   border-radius:999px;
   overflow:hidden;
@@ -95,23 +74,21 @@ body{
   display:block;
 }
 
-/* Prevent name from forcing horizontal overflow in some browsers */
 .name{
   margin:1.2rem 0 0 0;
   font-family:"Montserrat", sans-serif;
   font-weight:400;
   font-size:1.65rem;
   text-align:center;
-
-  white-space: normal;       /* was nowrap */
-  overflow-wrap: anywhere;   /* breaks long tokens safely */
-  max-width: 100%;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  max-width:100%;
 }
 
 .degree{
-  font-size: 0.8em;
+  font-size:0.8em;
   font-weight:400;
-  letter-spacing: 0.02em;
+  letter-spacing:0.02em;
 }
 
 .meta{
@@ -120,7 +97,6 @@ body{
   font-size:0.95rem;
   text-align:center;
   line-height:1.2;
-  max-width: 100%;
 }
 
 .icon-row{
@@ -134,7 +110,7 @@ body{
   height:2.75rem;
   border-radius:999px;
   border:1px solid var(--rule);
-  display:inline-flex;
+  display:flex;
   align-items:center;
   justify-content:center;
   text-decoration:none;
@@ -159,16 +135,14 @@ body{
 ========================= */
 
 .main{
-  /* smaller side padding so content can extend right */
-  padding: 0.9rem 3rem 2.5rem 3rem;  /* was 4rem */
-  min-width: 0; /* prevents grid overflow */
+  padding:0.9rem 3rem 2.5rem 3rem;
+  min-width:0;
 }
 
 .topnav{
   display:flex;
   justify-content:flex-end;
-  padding: 0;
-  margin-top: -0.2rem;
+  margin-top:-0.2rem;
 }
 
 .topnav nav{
@@ -182,37 +156,28 @@ body{
   color:var(--text);
   text-decoration:none;
   border-bottom:2px solid transparent;
-  padding: 0 0 0.35rem 0;
+  padding-bottom:0.35rem;
 }
 
-.topnav a:hover{
-  border-bottom-color:var(--rule);
-}
+.topnav a:hover{ border-bottom-color:var(--rule); }
+.topnav a.active{ border-bottom-color:var(--text); }
 
-.topnav a.active{
-  border-bottom-color:var(--text);
-}
-
-/* Make page text use more of the available width */
 .content{
-  max-width: 60rem;     /* was 45rem */
-  width: 100%;
-  padding-top: 0.35rem;
-  font-size: 1.06rem;
-  min-width: 0;
+  max-width:60rem;
+  width:100%;
+  padding-top:0.35rem;
+  font-size:1.06rem;
 }
 
 .content p{
-  text-align:left;
-  margin: 0 0 1.4rem 0;
+  margin:0 0 1.4rem 0;
   line-height:1.7;
 }
 
 .lede{
   font-size:1.35rem;
   line-height:1.6;
-  margin:0 0 1.6rem 0;
-  font-weight:400;
+  margin-bottom:1.6rem;
 }
 
 .section-title{
@@ -229,419 +194,178 @@ body{
 }
 
 .content a:hover{
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  text-decoration:underline;
+  text-underline-offset:4px;
 }
 
-.note{
-  color:var(--muted);
-  margin-top:1.2rem;
-}
-
-.section-divider{
-  border:0;
-  border-top:1px solid var(--rule);
-  margin:1.8rem 0;
-}
-
-strong{
-  font-weight:600;
-}
+strong{ font-weight:600; }
 
 /* =========================
-   ABOUT BOTTOM LAYOUT
-========================= */
-
-.about-bottom{
-  margin: 4rem 0 2rem 0;
-  display: grid;
-  grid-template-columns: 15rem 1fr;
-  gap: 2.5rem;
-  align-items: end;
-}
-
-.about-image{
-  margin: 0;
-}
-
-.about-image img{
-  width: 100%;
-  max-width: 15rem;
-  height: auto;
-  display: block;
-  filter: saturate(70%);
-}
-
-.about-question{
-  border-right: 3px solid var(--accent);
-  padding-right: 1.2rem;
-}
-
-.about-question p{
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  font-style: italic;
-  color: var(--muted);
-}
-
-/* Stack for mobile */
-@media (max-width: 900px){
-  .about-bottom{
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-
-  .about-image img{
-    margin: 0 auto;
-  }
-
-  .about-question{
-    border-right: 0;
-    padding-right: 0;
-  }
-}
-
-/* =========================
-   CV FULL VIEW
+   CV
 ========================= */
 
 .cv-content{
-  max-width: none;   /* allow full width */
-  width: 100%;
+  max-width:none;
+  width:100%;
 }
 
 .cv-viewer{
-  margin-top: 1.5rem;
-
-  /* a little “bleed” so the PDF doesn’t look clipped */
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-top:1.5rem;
+  margin-left:-1rem;
+  margin-right:-1rem;
 }
 
 .cv-viewer iframe{
-  width: calc(100% + 2rem);
-  height: 88vh;
-  border: none;
-  display: block;
-}
-
-.cv-actions{
-  margin-bottom: 1rem;
+  width:calc(100% + 2rem);
+  height:88vh;
+  border:0;
+  display:block;
 }
 
 .cv-download{
-  display: inline-block;
-  padding: 0.5rem 0.9rem;
-  border: 1px solid var(--rule);
-  border-radius: 999px;
-  text-decoration: none;
-  color: var(--text);
-  background: #fff;
-  transition: transform .12s ease, box-shadow .12s ease;
+  display:inline-block;
+  padding:0.5rem 0.9rem;
+  border:1px solid var(--rule);
+  border-radius:999px;
+  text-decoration:none;
+  color:var(--text);
+  background:#fff;
+  transition:transform .12s ease, box-shadow .12s ease;
 }
 
 .cv-download:hover{
-  transform: translateY(-1px);
-  box-shadow: var(--shadow);
-}
-
-.cv-updated{
-  margin-top: 1rem;
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
-/* Funding page lede */
-.funding-content .lede{
-  font-size: 1.1rem;
-  line-height: 1.6;
+  transform:translateY(-1px);
+  box-shadow:var(--shadow);
 }
 
 /* =========================
-   FUNDING TABLE REFINEMENT
+   FUNDING TABLE
 ========================= */
 
 .funding-table-wrap{
-  overflow-x: auto;
-  margin: 1rem 0 1.25rem 0;
+  overflow-x:auto;
+  margin:1rem 0 1.25rem 0;
 }
 
 .funding-table{
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
+  width:100%;
+  border-collapse:collapse;
+  table-layout:fixed;
 }
 
 .funding-table th,
 .funding-table td{
-  text-align: left;
-  vertical-align: top;
-  padding: 0.85rem 0.5rem;
+  text-align:center;      /* centered table only */
+  vertical-align:top;
+  padding:0.85rem 0.5rem;
 }
 
 .funding-table thead th{
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: var(--muted);
-  border-bottom: 1px solid var(--rule);
+  font-weight:600;
+  font-size:0.95rem;
+  color:var(--muted);
+  border-bottom:1px solid var(--rule);
 }
 
 .funding-table tbody td{
-  border-bottom: 1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
 }
 
 .funding-table tbody tr:last-child td{
-  border-bottom: none;
+  border-bottom:none;
 }
 
-.col-year{ width: 5rem; }
-.col-amount{
-  width: 10rem;
-  text-align: right;
-}
-.col-scope{ width: 8rem; }
-
-.muted{
-  color: var(--muted);
-}
+.col-year{ width:5rem; }
+.col-amount{ width:10rem; }
+.col-scope{ width:8rem; }
 
 /* =========================
-   FUNDING LEGEND (SUBTLE)
-========================= */
-
-.funding-legend{
-  margin-top: 1.1rem;
-  font-size: 0.78rem;
-  color: #9aa0a6;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.funding-legend p{
-  margin: 0;
-}
-.funding-legend p + p{
-  margin-top: 0.15rem;
-}
-.funding-legend strong{
-  font-weight: 600;
-  color: #8b9096;
-}
-
-/* =========================
-   FUNDING LOGOS
-========================= */
-
-.funding-logos{
-  margin: 1.2rem 0 2.2rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.2rem;
-  align-items: center;
-}
-
-.funding-logos img{
-  height: 40px;
-  max-width: 140px;
-  width: auto;
-  object-fit: contain;
-  display: block;
-  opacity: 0.9;
-  transition: opacity .2s ease, filter .2s ease;
-}
-
-.funding-logos img:hover{
-  filter: grayscale(0%);
-  opacity: 1;
-}
-
-/* =========================
-   COMING SOON PLACEHOLDER
-========================= */
-
-.coming-soon{
-  margin-top: 3rem;
-  padding: 2rem 0;
-  text-align: left;
-  font-size: 1.05rem;
-  color: var(--muted);
-}
-
-/* Funding Summary */
-.funding-summary {
-  font-size: 1.05rem;
-  margin: 1.25rem 0 1.75rem;
-  padding-left: 1.2rem;
-}
-
-.funding-summary li {
-  margin-bottom: 0.5rem;
-}
-
-/* =========================
-   RESEARCH ALTERNATING LAYOUT
+   RESEARCH
 ========================= */
 
 .research-block{
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 2.75rem;
-  margin: 2.75rem 0;
-  align-items: center;
-  min-width: 0;
+  display:grid;
+  grid-template-columns:1.2fr 0.8fr;
+  gap:2.75rem;
+  margin:2.75rem 0;
+  align-items:center;
 }
 
 .research-block.reverse{
-  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-columns:0.8fr 1.2fr;
 }
 
-.research-block.reverse .research-text{ order: 2; }
-.research-block.reverse .research-image{ order: 1; }
+.research-block.reverse .research-text{ order:2; }
+.research-block.reverse .research-image{ order:1; }
 
 .research-content .theme-title{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  margin: 0 0 0.5rem 0;
+  font-family:"Montserrat", sans-serif;
+  font-weight:600;
+  margin-bottom:0.5rem;
 }
 
 .research-content .theme-hook{
-  margin: 0 0 1rem 0;
-  color: var(--muted);
+  margin-bottom:1rem;
+  color:var(--muted);
 }
 
-/* =========================
-   RESEARCH IMAGES (SHOW FULL IMAGE, NO ZOOM/CROP)
-========================= */
-
-/*
-  Goal:
-  - show the full image (no cropping)
-  - do NOT scale up when the window gets bigger
-  - allow scaling down on small screens
-*/
+/* Show images at natural size (no zoom/crop) */
 
 .research-image{
-  margin: 0;
-  border-radius: 14px;
-  border: 1px solid var(--rule);
-  box-shadow: var(--shadow);
-  background: #fff;
-
-  /* keep figure from stretching bigger than the image */
-  justify-self: end;
-  max-width: 100%;
-
-  /* remove fixed height so image keeps its own proportions */
-  height: auto;
-
-  /* no overflow clipping needed since we aren't cropping */
-  overflow: visible;
+  margin:0;
+  border-radius:14px;
+  border:1px solid var(--rule);
+  box-shadow:var(--shadow);
+  background:#fff;
+  justify-self:end;
 }
 
-/* Image keeps intrinsic size, but can shrink to fit column */
 .research-image img{
-  display: block;
-  width: auto;          /* do not stretch */
-  height: auto;         /* preserve aspect ratio */
-  max-width: 100%;      /* shrink if needed */
-  max-height: none;
-  object-fit: contain;  /* harmless here; ensures no cropping if constrained */
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:100%;
 }
 
-/* Keep the same behavior when reversed (image on left) */
 .research-block.reverse .research-image{
-  justify-self: start;
-}
-
-/* Placeholder pattern (only if you still use placeholders anywhere) */
-.research-image.placeholder{
-  background:
-    linear-gradient(135deg, #eef3ee 25%, transparent 25%) -20px 0,
-    linear-gradient(225deg, #eef3ee 25%, transparent 25%) -20px 0,
-    linear-gradient(315deg, #eef3ee 25%, transparent 25%),
-    linear-gradient(45deg, #eef3ee 25%, transparent 25%);
-  background-size: 40px 40px;
-  min-height: 220px; /* so placeholders still look intentional */
+  justify-self:start;
 }
 
 /* =========================
    MOBILE
 ========================= */
 
-@media (max-width: 900px){
+@media (max-width:900px){
+
   .page{
-    grid-template-columns: 1fr;
-    margin: 0;              /* truly flush on mobile */
-    max-width: none;
+    grid-template-columns:1fr;
+    margin:0;
+    max-width:none;
   }
 
   .sidebar{
-    position: static;
-    height: auto;
-    border-right: 0;
-    border-bottom: 0.375rem solid var(--rule);
+    position:static;
+    height:auto;
+    border-right:0;
+    border-bottom:0.375rem solid var(--rule);
   }
 
   .main{
-    padding: 1.25rem 1.5rem 2.5rem 1.5rem;
+    padding:1.25rem 1.5rem 2.5rem 1.5rem;
   }
 
   .research-block,
   .research-block.reverse{
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr;
   }
 
   .research-block.reverse .research-text,
   .research-block.reverse .research-image{
-    order: unset;
+    order:unset;
   }
 
   .research-image{
-    margin-top: 1.25rem;
-    justify-self: start;
+    margin-top:1.25rem;
+    justify-self:start;
   }
-}
-/* =========================
-   FUNDING — CENTERED LAYOUT
-========================= */
-
-/* Center the Funding page title */
-.funding-content .section-title{
-  text-align: center;
-}
-
-/* Center the intro paragraph if desired */
-.funding-content .lede{
-  text-align: center;
-}
-
-/* Center the entire table */
-.funding-table{
-  text-align: center;
-}
-
-/* Override previous left/right alignments */
-.funding-table th,
-.funding-table td{
-  text-align: center !important;
-}
-
-/* Remove special right alignment for amount column */
-.col-amount{
-  text-align: center !important;
-}
-
-/* =========================
-   FUNDING TABLE — CENTER CONTENT ONLY
-========================= */
-
-/* Center all table headers and cells */
-.funding-table th,
-.funding-table td{
-  text-align: center !important;
-}
-
-/* Remove special right alignment on amount column */
-.col-amount{
-  text-align: center !important;
 }
