@@ -257,14 +257,13 @@ strong{ font-weight:600; }
 }
 
 .about-label{
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 400;              /* NOT bold */
-  color: var(--accent);          /* your green */
-  letter-spacing: 0.06em;
-  text-transform: uppercase;     /* optional but nice */
-  margin: 0 0 0.5rem 0;
+  font-family:"Montserrat", sans-serif;
+  font-weight:700;              /* same as section-title */
+  font-size:1.4rem;             /* smaller than 2.75rem */
+  color:var(--accent);
+  margin:0 0 0.6rem 0;
 }
+
 
 .about-figure-block{
   display: flex;
