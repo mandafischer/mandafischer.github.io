@@ -515,3 +515,28 @@ strong{ font-weight:600; }
     justify-self:start;
   }
 }
+
+@media (max-width: 900px){
+
+  /* tighter spacing between blocks when stacked */
+  .research-block{
+    margin: 1.6rem 0;        /* was 2.75rem */
+    gap: 1.25rem;            /* was 2.75rem */
+  }
+
+  /* reduce space between text and image */
+  .research-image{
+    margin-top: 0.5rem;      /* was 1.25rem */
+  }
+
+  /* reduce extra paragraph space at end of the text column */
+  .research-text p:last-child{
+    margin-bottom: 0.6rem;   /* was 1.4rem from .content p */
+  }
+
+  /* optional: slightly tighten the hook line too */
+  .research-content .theme-hook{
+    margin: 0 0 0.6rem 0;     /* was 1rem */
+  }
+}
+
