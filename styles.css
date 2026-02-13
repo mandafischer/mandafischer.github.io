@@ -318,6 +318,12 @@ strong{ font-weight:600; }
   display: block;
 }
 
+/* CV page: reduce side padding so the iframe can use the full column */
+.cv-main{
+  padding-left: 1.25rem;   /* was 3rem */
+  padding-right: 1.25rem;  /* was 3rem */
+}
+
 /* =========================
    FUNDING
 ========================= */
