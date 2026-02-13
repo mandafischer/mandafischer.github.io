@@ -16,6 +16,7 @@
 
 html{
   font-size:16px;
+  overflow-x: hidden;   /* or hidden if clip causes issues */
 }
 
 body{
@@ -27,7 +28,9 @@ body{
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
+  overflow-x: hidden;   /* or hidden */
 }
+
 
 /* Safe global image behavior (prevents mobile blow-ups) */
 img{
@@ -47,7 +50,6 @@ img{
   max-width:84rem;
   width:100%;
   margin:1.5rem 0; /* flush left */
-  overflow-x: hidden;   /* prevents sideways scroll without breaking sticky */
   align-items: start;   /* <-- add this line (see next step) */
 }
 
