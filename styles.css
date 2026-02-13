@@ -229,7 +229,7 @@ strong{ font-weight:600; }
   display:grid;
   grid-template-columns: 15rem 1fr;
   gap:2.5rem;
-  align-items:end;
+  align-items:start;
 }
 
 .about-image{ margin:0; }
@@ -240,6 +240,7 @@ strong{ font-weight:600; }
   max-width:15rem;
   height:auto;
   filter:saturate(70%);
+  margin: 0; 
 }
 
 .about-question{
@@ -262,7 +263,12 @@ strong{ font-weight:600; }
   color: var(--accent);          /* your green */
   letter-spacing: 0.06em;
   text-transform: uppercase;     /* optional but nice */
-  margin-bottom: 0.75rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.about-figure-block{
+  display: flex;
+  flex-direction: column;
 }
 
 
