@@ -255,6 +255,17 @@ strong{ font-weight:600; }
   color:var(--muted);
 }
 
+.about-label{
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;              /* NOT bold */
+  color: var(--accent);          /* your green */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;     /* optional but nice */
+  margin-bottom: 0.75rem;
+}
+
+
 /* =========================
    CV (FULL WIDTH)
 ========================= */
