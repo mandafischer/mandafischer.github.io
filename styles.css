@@ -256,6 +256,13 @@ strong{ font-weight:600; }
   color:var(--muted);
 }
 
+.about-question{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;   /* this is the key line */
+}
+
+
 .about-label{
   font-family:"Montserrat", sans-serif;  /* same as About Me */
   font-weight:700;                      /* same weight */
