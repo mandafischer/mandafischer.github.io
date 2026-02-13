@@ -52,11 +52,6 @@ img{
 }
 
 .sidebar{
-  position:sticky;
-  top:0;
-  height:100vh;
-  overflow-y:auto;
-  overflow-x:hidden; /* prevent useless horizontal scrollbar */
   padding:3.25rem 3rem;
   border-right:0.375rem solid var(--rule);
   display:flex;
@@ -64,6 +59,10 @@ img{
   align-items:center;
   gap:0.9rem;
   min-width:0;
+
+  position:static;
+  height:auto;
+  overflow:visible;
 }
 
 .avatar-wrap{
@@ -84,10 +83,12 @@ img{
   margin:1.2rem 0 0 0;
   font-family:"Montserrat", sans-serif;
   font-weight:400;
-  font-size:1.65rem;
+  font-size:1.45rem;          /* slightly smaller */
   text-align:center;
-  white-space:normal;
-  overflow-wrap:anywhere;
+
+  white-space:nowrap;         /* force single line */
+  overflow:hidden;
+  text-overflow:ellipsis;     /* safety if it truly can’t fit */
   max-width:100%;
 }
 
@@ -485,6 +486,7 @@ strong{ font-weight:600; }
     height:auto;
     border-right:0;
     border-bottom:0.375rem solid var(--rule);
+    padding: 2rem 1.5rem;
   }
 
   .main{
@@ -504,9 +506,8 @@ strong{ font-weight:600; }
   .about-question{
     border-right:0;
     padding-right:0;
+    margin-top:0;
   }
-
-  /* CV bleed should match mobile padding */
 
   /* Slightly smaller logos on mobile */
   .funding-logos img{
@@ -518,6 +519,8 @@ strong{ font-weight:600; }
   .research-block,
   .research-block.reverse{
     grid-template-columns:1fr;
+    margin: 1.6rem 0;     /* tighter */
+    gap: 1.25rem;         /* tighter */
   }
 
   .research-block.reverse .research-text,
@@ -526,32 +529,17 @@ strong{ font-weight:600; }
   }
 
   .research-image{
-    margin-top:1.25rem;
     justify-self:start;
-  }
-}
-
-@media (max-width: 900px){
-
-  /* tighter spacing between blocks when stacked */
-  .research-block{
-    margin: 1.6rem 0;        /* was 2.75rem */
-    gap: 1.25rem;            /* was 2.75rem */
+    margin-top:0.5rem;    /* tighter */
   }
 
-  /* reduce space between text and image */
-  .research-image{
-    margin-top: 0.5rem;      /* was 1.25rem */
-  }
-
-  /* reduce extra paragraph space at end of the text column */
   .research-text p:last-child{
-    margin-bottom: 0.6rem;   /* was 1.4rem from .content p */
+    margin-bottom:0.6rem;
   }
 
-  /* optional: slightly tighten the hook line too */
   .research-content .theme-hook{
-    margin: 0 0 0.6rem 0;     /* was 1rem */
+    margin:0 0 0.6rem 0;
   }
 }
+
 
