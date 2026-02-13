@@ -548,3 +548,10 @@ strong{ font-weight:600; }
 }
 
 
+.about-label{
+  font-family:"Montserrat", sans-serif;  /* same as About Me */
+  font-weight:700;                      /* same weight */
+  font-size:1.35rem;                    /* smaller than 2.75rem */
+  color:var(--accent);
+  margin:0 0 0.5rem 0;
+}
