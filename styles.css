@@ -89,7 +89,7 @@ img{
 .name{
   margin:1.2rem 0 0 0;
   font-family:"Montserrat", sans-serif;
-  font-weight:400;
+  font-weight:600;
   font-size:1.2rem;          /* slightly smaller */
   text-align:center;
 
@@ -101,7 +101,7 @@ img{
 
 .degree{
   font-size:0.8em;
-  font-weight:400;
+  font-weight:600;
   letter-spacing:0.02em;
 }
 
