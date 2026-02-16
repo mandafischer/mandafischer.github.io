@@ -255,7 +255,8 @@ strong{ font-weight:600; }
 .about-question{
   border-right:3px solid var(--accent);
   padding-right:1.2rem;
-  margin-top: 6rem;   /* <-- adjust this number */
+  margin-top: 0;  
+  transform: translateY(1.25rem); /* adjust this to taste */
 }
 
 
@@ -266,12 +267,6 @@ strong{ font-weight:600; }
   font-style:italic;
   color:var(--muted);
 }
-
-/* .about-question{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;   /* this is the key line */
-} */
 
 
 .about-figure-block{
