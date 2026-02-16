@@ -336,8 +336,8 @@ strong{ font-weight:600; }
 }
 
 .funding-total-line{
-  font-size:1.35rem;      /* slightly larger but not huge */
-  font-weight:600;
+  font-size:1.06rem;      /* slightly larger but not huge */
+  font-weight:400;
   color:var(--accent);    /* make it green */
   margin:0 0 0.35rem 0;
 }
