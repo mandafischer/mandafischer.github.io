@@ -335,17 +335,18 @@ strong{ font-weight:600; }
   padding-left:1.2rem;   /* keep normal bullet indent */
 }
 
-.funding-total{
-  font-size:2rem;
-  font-weight:700;
-  color:var(--accent);
+.funding-total-line{
+  font-size:1.35rem;      /* slightly larger but not huge */
+  font-weight:600;
+  color:var(--accent);    /* make it green */
+  margin:0 0 0.35rem 0;
+}
+.funding-count-line{
+  font-size:1rem;
+  color:var(--muted);
+  margin:0 0 1.75rem 0;
 }
 
-.funding-count{
-  color:var(--muted);
-  font-size:1rem;
-  margin:0 0 1.5rem 0;
-}
 
 /* Greyed-out legend */
 .funding-legend{
