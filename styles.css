@@ -237,9 +237,8 @@ strong{ font-weight:600; }
 .about-bottom{
   margin:4rem 0 2rem 0;
   display:grid;
-  grid-template-columns: 15rem 1fr;
+  grid-template-columns: 18rem 1fr;
   gap:2.5rem;
-  align-items:start;
 }
 
 .about-image{ margin:0; }
@@ -256,7 +255,7 @@ strong{ font-weight:600; }
 .about-question{
   border-right:3px solid var(--accent);
   padding-right:1.2rem;
-  margin-top: 3rem;   /* <-- adjust this number */
+  margin-top: 6rem;   /* <-- adjust this number */
 }
 
 
@@ -544,11 +543,11 @@ strong{ font-weight:600; }
   }
 }
 
-
 .about-label{
   font-family:"Montserrat", sans-serif;  /* same as About Me */
   font-weight:700;                      /* same weight */
   font-size:1.35rem;                    /* smaller than 2.75rem */
   color:var(--accent);
   margin:0 0 0 0;
+  white-space:nowrap;  
 }
