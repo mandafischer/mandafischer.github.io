@@ -239,6 +239,7 @@ strong{ font-weight:600; }
   display:grid;
   grid-template-columns: 18rem 1fr;
   gap:2.5rem;
+  align-items:start;
 }
 
 .about-image{ margin:0; }
