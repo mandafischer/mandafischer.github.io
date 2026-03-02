@@ -485,9 +485,10 @@ strong{ font-weight:600; }
 @media (max-width: 900px){
 
   .page{
-    grid-template-columns:1fr;
-    margin:0;
-    max-width:none;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr; 
+    margin: 0;
+    max-width: none;
   }
 
   .sidebar{
