@@ -322,7 +322,7 @@ strong{ font-weight:600; }
 }
 
 .research-schematic img {
-  max-width: 100%;          /* ensures it’s responsive */
+  max-width: 90%;          /* ensures it’s responsive */
   height: auto;             /* preserves aspect ratio */
 }
 
