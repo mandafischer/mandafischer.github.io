@@ -235,30 +235,28 @@ strong{ font-weight:600; }
 ========================= */
 
 .about-bottom{
-  margin:4rem 0 2rem 0;
+  margin:1rem 0 2rem 0;
   display:grid;
-  grid-template-columns: 18rem 1fr;
+  grid-template-columns: 28rem 1fr;
   gap:2.5rem;
-  align-items:start;
+  align-items:center;
 }
 
 .about-image{ margin:0; }
 
-/* Restore controlled About figure size */
 .about-image img{
-  width:100%;
-  max-width:15rem;
+  width:75%;
+  max-width:95rem;
   height:auto;
-  filter:saturate(70%);
+  filter:saturate(100%);
   margin: 0; 
 }
 
 .about-question{
-  border-right:3px solid var(--accent);
+  border-right:5px solid var(--accent);
   padding-right:1.2rem;
   margin-top: 2.60;  
 }
-
 
 .about-question p{
   margin:0;
@@ -273,8 +271,6 @@ strong{ font-weight:600; }
   display: flex;
   flex-direction: column;
 }
-
-
 
 /* =========================
    CV (FULL WIDTH)
@@ -315,6 +311,19 @@ strong{ font-weight:600; }
   height: 88vh;
   border: 0;
   display: block;
+}
+
+/* Research schematic */
+
+.research-schematic {
+  display: flex;           /* use flexbox */
+  justify-content: center;  /* center horizontally */
+  margin: 2rem 0;           /* optional: add vertical spacing */
+}
+
+.research-schematic img {
+  max-width: 100%;          /* ensures it’s responsive */
+  height: auto;             /* preserves aspect ratio */
 }
 
 /* CV page: reduce side padding so the iframe can use the full column */
@@ -503,6 +512,17 @@ strong{ font-weight:600; }
     padding:1.25rem 1.5rem 2.5rem 1.5rem;
   }
 
+  .topnav nav {
+    flex-wrap: nowrap;    /* no wrapping */
+    gap: 1rem;            /* smaller gap */
+    overflow-x: auto;     /* scroll if needed */
+  }
+
+  .topnav a {
+    font-size: 0.95rem;   /* slightly smaller text */
+  }
+}
+
   /* About bottom stacks */
   .about-bottom{
     grid-template-columns:1fr;
@@ -524,6 +544,17 @@ strong{ font-weight:600; }
     height:34px;
     max-width:120px;
   }
+
+  .funding-table th,
+  .funding-table td {
+    padding: 0.5rem 0.3rem;  /* smaller padding for narrow screens */
+    font-size: 0.9rem;       /* slightly smaller text */
+  }
+
+  .col-year, .col-amount, .col-scope {
+    width: auto;             /* remove fixed widths */
+  }
+}
 
   /* Research stacks */
   .research-block,
@@ -553,14 +584,23 @@ strong{ font-weight:600; }
 }
 
 .about-label{
-  font-family:"Montserrat", sans-serif;  /* same as About Me */
-  font-weight:700;                      /* same weight */
-  font-size:1.35rem;                    /* smaller than 2.75rem */
+  font-family:"Montserrat", sans-serif;  
+  font-weight:700;                    
+  font-size:1.35rem;                  
   color:var(--accent);
   margin:0 0 0 0;
   white-space:nowrap;  
 }
 
+.about-figure-block > .about-label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: var(--accent);
+  margin-bottom: 0.75rem;  /* add spacing below the label */
+  display: block;           /* ensure block display */
+  white-space: normal;      /* allow wrapping if needed */
+}
 
 html {
   scroll-behavior: smooth;
