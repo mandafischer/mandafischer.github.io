@@ -245,7 +245,7 @@ strong{ font-weight:600; }
 .about-image{ margin:0; }
 
 .about-image img{
-  width:75%;
+  width:65%;
   max-width:95rem;
   height:auto;
   filter:saturate(100%);
