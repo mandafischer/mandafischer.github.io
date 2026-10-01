@@ -631,3 +631,691 @@ html {
   color: #0066cc; /* or your link color */
   text-decoration: underline;
 }
+
+/* =========================
+   TEACHING
+========================= */
+
+.teaching-content{
+  max-width:64rem;
+}
+
+
+/* ---------- Intro ---------- */
+
+.teaching-intro{
+  margin:0.5rem 0 3rem 0;
+  padding:1.8rem 2rem;
+  border-radius:18px;
+  background:linear-gradient(
+    135deg,
+    #f4f8f2 0%,
+    #fafcf9 100%
+  );
+  border:1px solid #e4ece1;
+}
+
+.teaching-kicker{
+  margin:0 0 1rem 0 !important;
+  font-family:"Montserrat", sans-serif;
+  font-size:1.35rem;
+  line-height:1.45 !important;
+  font-weight:600;
+  color:var(--accent);
+}
+
+.teaching-intro p:last-of-type{
+  margin-bottom:1.3rem;
+}
+
+.teaching-quickfacts{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.65rem;
+  margin-top:1.2rem;
+}
+
+.teaching-quickfacts span{
+  display:inline-flex;
+  align-items:center;
+  padding:0.45rem 0.8rem;
+  border-radius:999px;
+  background:#fff;
+  border:1px solid #dce6d9;
+  font-size:0.88rem;
+  font-weight:600;
+  color:#4d6549;
+}
+
+
+/* ---------- Section headings ---------- */
+
+.teaching-section-head{
+  margin:0 0 1.4rem 0;
+}
+
+.teaching-section-head h3{
+  margin:0 0 0.35rem 0;
+  font-family:"Montserrat", sans-serif;
+  font-size:1.45rem;
+  font-weight:700;
+  color:var(--text);
+}
+
+.teaching-section-head p{
+  max-width:43rem;
+  margin:0;
+  color:var(--muted);
+  font-size:1rem;
+}
+
+.teaching-section-spaced{
+  margin-top:3.4rem;
+}
+
+
+/* ---------- Research process cards ---------- */
+
+.process-grid{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:1rem;
+}
+
+.process-card{
+  min-width:0;
+  padding:1.35rem 1.25rem 1.4rem 1.25rem;
+  border-radius:18px;
+  border:1px solid rgba(0,0,0,0.055);
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease;
+}
+
+.process-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 0.8rem 1.8rem rgba(0,0,0,.08);
+}
+
+/* light, distinct colours */
+.process-ask{
+  background:#EEF4EB;
+}
+
+.process-design{
+  background:#F1F2E9;
+}
+
+.process-interpret{
+  background:#F6F1E8;
+}
+
+.process-communicate{
+  background:#F3ECE8;
+}
+
+
+/* icons */
+
+.process-icon{
+  width:2.8rem;
+  height:2.8rem;
+  border-radius:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:1rem;
+  background:rgba(255,255,255,.78);
+}
+
+.process-icon svg{
+  width:1.55rem;
+  height:1.55rem;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.7;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.process-ask .process-icon{
+  color:#64805F;
+}
+
+.process-design .process-icon{
+  color:#77795E;
+}
+
+.process-interpret .process-icon{
+  color:#8A7557;
+}
+
+.process-communicate .process-icon{
+  color:#856C64;
+}
+
+
+.process-label{
+  margin:0 0 0.35rem 0 !important;
+  font-family:"Montserrat", sans-serif;
+  font-size:0.76rem;
+  font-weight:700;
+  letter-spacing:0.12em;
+}
+
+.process-card h4{
+  margin:0 0 0.65rem 0;
+  font-family:"Montserrat", sans-serif;
+  font-size:1.02rem;
+  line-height:1.35;
+  font-weight:600;
+}
+
+.process-card p:last-child{
+  margin:0;
+  color:#4b5563;
+  font-size:0.92rem;
+  line-height:1.55;
+}
+
+
+/* ---------- Evidence / practice cards ---------- */
+
+.teaching-proof-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:1.2rem;
+  margin-bottom:3rem;
+}
+
+.teaching-proof-card{
+  position:relative;
+  padding:1.55rem;
+  border-radius:16px;
+  background:#fff;
+  border:1px solid var(--rule);
+  box-shadow:0 0.35rem 1rem rgba(0,0,0,.035);
+}
+
+.teaching-proof-card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:1.5rem;
+  right:1.5rem;
+  height:4px;
+  border-radius:0 0 5px 5px;
+  background:var(--accent);
+  opacity:.75;
+}
+
+.proof-eyebrow{
+  margin:0 0 0.45rem 0 !important;
+  padding-top:0.35rem;
+  font-family:"Montserrat", sans-serif;
+  font-size:0.73rem;
+  font-weight:700;
+  letter-spacing:0.11em;
+  color:var(--accent);
+}
+
+.teaching-proof-card h4{
+  margin:0 0 0.3rem 0;
+  font-family:"Montserrat", sans-serif;
+  font-size:1.18rem;
+  font-weight:600;
+}
+
+.proof-stat{
+  margin:0 0 1rem 0 !important;
+  color:var(--muted);
+  font-size:0.9rem;
+  font-weight:600;
+}
+
+.teaching-proof-card > p:not(.proof-eyebrow):not(.proof-stat):not(.evidence-line){
+  font-size:0.95rem;
+  line-height:1.6;
+}
+
+.evidence-line{
+  margin:1.15rem 0 0 0 !important;
+  padding-top:0.9rem;
+  border-top:1px solid var(--rule);
+  font-size:0.87rem;
+  line-height:1.5 !important;
+  color:#59615b;
+}
+
+
+/* ---------- Teaching responsive layout ---------- */
+
+@media (max-width:1100px){
+
+  .process-grid{
+    grid-template-columns:repeat(2, 1fr);
+  }
+
+  .teaching-proof-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:650px){
+
+  .teaching-intro{
+    padding:1.35rem;
+  }
+
+  .teaching-kicker{
+    font-size:1.17rem;
+  }
+
+  .process-grid{
+    grid-template-columns:1fr;
+  }
+
+  .teaching-quickfacts{
+    gap:0.5rem;
+  }
+
+  .teaching-quickfacts span{
+    font-size:0.82rem;
+  }
+}
+
+/* =========================
+   FUNDING — VISUAL REFRESH
+========================= */
+
+.funding-content{
+  max-width:64rem;
+}
+
+
+/* ---------- Intro ---------- */
+
+.funding-intro{
+  margin:0.5rem 0 3rem 0;
+  padding:1.8rem 2rem;
+  border-radius:18px;
+  background:linear-gradient(
+    135deg,
+    #f4f8f2 0%,
+    #fafcf9 100%
+  );
+  border:1px solid #e4ece1;
+}
+
+.funding-kicker{
+  margin:0 0 0.9rem 0 !important;
+  font-family:"Montserrat", sans-serif;
+  font-size:1.35rem;
+  line-height:1.45 !important;
+  font-weight:600;
+  color:var(--accent);
+}
+
+.funding-intro p:last-of-type{
+  margin-bottom:1.25rem;
+}
+
+.funding-quickfacts{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.65rem;
+}
+
+.funding-quickfacts span{
+  display:inline-flex;
+  align-items:center;
+  padding:0.45rem 0.8rem;
+  border-radius:999px;
+  background:#fff;
+  border:1px solid #dce6d9;
+  font-size:0.88rem;
+  font-weight:600;
+  color:#4d6549;
+}
+
+
+/* ---------- Section headings ---------- */
+
+.funding-section-head{
+  margin:0 0 1.25rem 0;
+}
+
+.funding-section-head h3{
+  margin:0;
+  font-family:"Montserrat", sans-serif;
+  font-size:1.55rem;
+  font-weight:700;
+}
+
+.funding-eyebrow{
+  margin:0 0 0.2rem 0 !important;
+  font-family:"Montserrat", sans-serif;
+  font-size:0.74rem;
+  font-weight:700;
+  letter-spacing:0.12em;
+  color:var(--accent);
+}
+
+.funding-section-spaced{
+  margin-top:3.75rem;
+}
+
+
+/* ---------- Main funding stats ---------- */
+
+.funding-stat-grid{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:1rem;
+  margin-bottom:2rem;
+}
+
+.funding-stat-card{
+  padding:1.3rem 1rem;
+  text-align:center;
+  border-radius:17px;
+  background:#F3F7F1;
+  border:1px solid #E1E9DE;
+}
+
+.funding-stat-card:nth-child(2){
+  background:#F1F3EC;
+  border-color:#E4E7DD;
+}
+
+.funding-stat-card:nth-child(3){
+  background:#F6F3EC;
+  border-color:#EAE4D8;
+}
+
+.funding-stat-highlight{
+  background:#F3ECE8 !important;
+  border-color:#E7DBD5 !important;
+}
+
+.funding-stat-number{
+  margin:0 !important;
+  font-family:"Montserrat", sans-serif;
+  font-size:1.9rem;
+  line-height:1.1 !important;
+  font-weight:700;
+  color:var(--accent);
+}
+
+.funding-stat-label{
+  margin:0.5rem 0 0 0 !important;
+  font-size:0.86rem;
+  line-height:1.35 !important;
+  color:#59615b;
+}
+
+.funding-stat-label span{
+  font-size:0.78rem;
+  color:var(--muted);
+}
+
+
+/* ---------- Agency logos ---------- */
+
+.funding-agencies{
+  margin:1.7rem 0 1.6rem 0;
+}
+
+.funding-mini-title{
+  margin:0 0 0.8rem 0 !important;
+  font-size:0.82rem;
+  color:var(--muted);
+  text-transform:uppercase;
+  letter-spacing:0.07em;
+  font-weight:600;
+}
+
+.funding-logos{
+  margin:0;
+  padding:1rem 1.2rem;
+  display:flex;
+  flex-wrap:wrap;
+  gap:2rem;
+  align-items:center;
+  border-radius:14px;
+  background:#fbfbfb;
+  border:1px solid #f0f0f0;
+}
+
+.funding-logos img{
+  height:36px;
+  max-width:125px;
+  width:auto;
+  object-fit:contain;
+  opacity:.78;
+  filter:saturate(.75);
+  transition:
+    opacity .18s ease,
+    filter .18s ease,
+    transform .18s ease;
+}
+
+.funding-logos img:hover{
+  opacity:1;
+  filter:saturate(1);
+  transform:translateY(-2px);
+}
+
+
+/* ---------- Funding tables ---------- */
+
+.funding-table-wrap{
+  overflow-x:auto;
+  margin:1.3rem 0 0 0;
+  border:1px solid var(--rule);
+  border-radius:16px;
+  background:#fff;
+}
+
+.funding-table{
+  width:100%;
+  border-collapse:collapse;
+  table-layout:auto;
+}
+
+.funding-table th,
+.funding-table td{
+  padding:0.9rem 0.8rem;
+  text-align:left;
+  vertical-align:middle;
+}
+
+.funding-table thead th{
+  background:#f7f8f7;
+  font-family:"Montserrat", sans-serif;
+  font-size:0.76rem;
+  font-weight:700;
+  letter-spacing:0.05em;
+  text-transform:uppercase;
+  color:#656d67;
+  border-bottom:1px solid var(--rule);
+}
+
+.funding-table tbody td{
+  font-size:0.9rem;
+  line-height:1.45;
+  border-bottom:1px solid #eeeeee;
+}
+
+.funding-table tbody tr:last-child td{
+  border-bottom:none;
+}
+
+.funding-table tbody tr{
+  transition:background .15s ease;
+}
+
+.funding-table tbody tr:hover{
+  background:#fafcf9;
+}
+
+.funding-table td:first-child{
+  font-weight:600;
+  color:#626962;
+  white-space:nowrap;
+}
+
+.funding-table td:nth-child(3){
+  white-space:nowrap;
+}
+
+.table-note{
+  font-size:0.76rem;
+  color:var(--muted);
+}
+
+
+/* ---------- Featured award ---------- */
+
+.featured-award{
+  background:#f5f9f3;
+}
+
+.award-callout{
+  display:inline-block;
+  margin-top:0.35rem;
+  padding:0.2rem 0.5rem;
+  border-radius:6px;
+  background:#e4eee0;
+  color:#4c6947;
+  font-size:0.76rem;
+  font-weight:700;
+}
+
+.declined-label{
+  display:inline-block;
+  margin-left:0.35rem;
+  font-size:0.73rem;
+  color:var(--muted);
+  font-style:italic;
+}
+
+
+/* ---------- Scope labels ---------- */
+
+.scope-pill{
+  display:inline-block;
+  padding:0.25rem 0.5rem;
+  border-radius:999px;
+  background:#e8f0e5;
+  color:#4f6b49;
+  font-size:0.72rem;
+  font-weight:600;
+  white-space:nowrap;
+}
+
+.scope-international{
+  background:#eee9f4;
+  color:#735f86;
+}
+
+.scope-provincial{
+  background:#f8efd9;
+  color:#88703c;
+}
+
+.scope-regional{
+  background:#edf3f5;
+  color:#607d88;
+}
+
+.scope-institutional{
+  background:#f1f2f2;
+  color:#666b68;
+}
+
+
+/* ---------- Honours overview ---------- */
+
+.honours-summary{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:1rem;
+  margin-bottom:1.5rem;
+}
+
+.honours-number{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  min-height:8rem;
+  padding:1rem;
+  border-radius:16px;
+  background:#f8faf7;
+  border:1px solid #e5ebe2;
+  color:#59615b;
+  font-size:0.86rem;
+}
+
+.honours-big{
+  display:block;
+  margin-bottom:0.25rem;
+  font-family:"Montserrat", sans-serif;
+  font-size:1.8rem;
+  font-weight:700;
+  color:var(--accent);
+}
+
+
+/* ---------- Responsive ---------- */
+
+@media (max-width:1100px){
+
+  .funding-stat-grid{
+    grid-template-columns:repeat(2, 1fr);
+  }
+
+  .honours-summary{
+    grid-template-columns:repeat(3, 1fr);
+  }
+}
+
+@media (max-width:650px){
+
+  .funding-intro{
+    padding:1.35rem;
+  }
+
+  .funding-kicker{
+    font-size:1.17rem;
+  }
+
+  .funding-stat-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .honours-summary{
+    grid-template-columns:1fr;
+  }
+
+  .funding-quickfacts span{
+    font-size:0.82rem;
+  }
+
+  .funding-table th,
+  .funding-table td{
+    padding:0.72rem 0.55rem;
+    font-size:0.82rem;
+  }
+
+  .funding-logos{
+    gap:1.25rem;
+  }
+
+  .funding-logos img{
+    height:30px;
+    max-width:105px;
+  }
+}
