@@ -1319,3 +1319,14 @@ html {
     max-width:105px;
   }
 }
+
+/* Mobile: hide CV preview, keep PDF link */
+@media (max-width: 650px) {
+  .cv-viewer {
+    display: none;
+  }
+
+  .cv-actions {
+    margin-top: 1.5rem;
+  }
+}
